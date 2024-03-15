@@ -5,7 +5,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando qu
 ## Integrantes
 
 * Arthur Henrique Chaves Oliveira
-* Júlio Lage 
+* Júlio Lage Alexandre
 * Rhudson Douglas
 * Sara Alves Martins
 * Sophia Neves Alvim Ottoni
