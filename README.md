@@ -35,9 +35,7 @@ _O trabalho focaliza na importância do sono, estabelecendo conexões entre este
 
 ### 1.1 Contextualização
 
-_Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere.
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas)._
+_Haja vista inúmeras pesquisas que indicam a importância de dormir, o trabalho visa tratar a questão deste hábito na vida dos indivíduos. Assim sendo, os bons hábitos, ou até mesmo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. Mais especificamente, o projeto está inserido na esfera escolar, buscando observar se há associação entre uma boa rotina de sono e um bom desempenho acadêmico._
 
 ### 1.2 Problema
 
