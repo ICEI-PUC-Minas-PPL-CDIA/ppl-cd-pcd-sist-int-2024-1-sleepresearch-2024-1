@@ -39,6 +39,8 @@ _Haja vista inúmeras pesquisas que indicam a importância de dormir, o trabalho
 
 ### 1.2 Problema
 
+_Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. No caso das instituições de ensino, devemos analisar os alunos que estão tendo problemas com sono e como isso impacta a rotina e desempoenho escolar dos mesmos._
+
 _Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o trabalho trata. 
 O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
 o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
