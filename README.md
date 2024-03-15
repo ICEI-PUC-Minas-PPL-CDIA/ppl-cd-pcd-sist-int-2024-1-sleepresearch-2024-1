@@ -36,6 +36,7 @@ _O trabalho focaliza na importância do sono, estabelecendo conexões entre este
 ### 1.1 Contextualização
 
 _A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. Exemplificadamente, segundo informações do artigo “Fatores associados a distúrbios do sono em estudantes universitários”, 32% dos estudantes apresentam sono insuficiente nos dias de aula e, 18,6%, latência longa nos dias de aula. Sendo assim, torna-se útil o tratamento de dados oriundos da relação entre a qualidade de sono e desempenho acadêmico em um mundo em que a educação assume um papel extremamente importante._
+
 _Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. Mais especificamente, o projeto está inserido na esfera escolar, buscando observar se há associação entre uma boa rotina de sono e um bom desempenho acadêmico._
 
 ### 1.2 Problema
