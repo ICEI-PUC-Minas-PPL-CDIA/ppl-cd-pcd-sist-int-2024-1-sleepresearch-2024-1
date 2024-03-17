@@ -6,7 +6,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando qu
 
 * Arthur Henrique Chaves Oliveira
 * Júlio Lage Alexandre
-* Rhudson Douglas
+* Rhudson Douglas Mota Sampaio
 * Sara Alves Martins
 * Sophia Neves Alvim Ottoni
 
@@ -58,6 +58,7 @@ concentrar a sua prática investigativa, ou como você vai aprofundar no seu tra
 
 _Mostre também as **justificativas** para o 
 desenvolvimento do seu trabalho e, caso deseje, destaque alguma contribuição do trabalho._
+O trabalho visa investigar o impacto da qualidade do sono nos estudantes universitários brasileiros, abordando seus efeitos no desempenho acadêmico, atlético, saúde física e mental. Propõe-se investigar e superar hábitos prejudiciais à higiene do sono, utilizando dados de pesquisas coletados nas universidades por meio de ferramentas eficazes para medir tais hábitos e sua influência direta na qualidade do sono.
 
 ## 2. Participantes do processo
 
