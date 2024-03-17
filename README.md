@@ -45,11 +45,6 @@ _Tendo em vista o que foi apontado anteriormente, é de suma importância que se
 
 _Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária._
 
-_Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o trabalho trata. 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
-o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
-para tal._
-
 ### 1.3 Objetivo geral
 
 _O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
