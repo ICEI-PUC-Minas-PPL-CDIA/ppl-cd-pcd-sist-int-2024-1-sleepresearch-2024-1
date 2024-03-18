@@ -1,6 +1,4 @@
-# Nome do projeto
-
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando que o objeto é desenvolver um sistema inteligente. Você deve mencionar o produto que está sendo desenvolvido, e não o que se espera obter com este produto.
+# Sleep Research
 
 ## Integrantes
 
@@ -14,18 +12,11 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando qu
 
 * Prof. Hugo Bastos de Paula
 
-
-
 ---
 
 _Curso de Ciência de Dados, Unidade Praça da Liberdade_
 
 _Instituto de Informática e Ciências Exatas – Pontifícia Universidade Católica de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
-
----
-
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ---
 
@@ -41,7 +32,7 @@ _Haja vista essas pesquisas, que ressaltam uma problemática contemporânea asso
 
 ### 1.2 Problema
 
-_Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar dos mesmos. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico._
+_Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico._
 
 _Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária._
 
@@ -56,9 +47,7 @@ concentrar a sua prática investigativa, ou como você vai aprofundar no seu tra
 
 ### 1.4 Justificativas
 
-_Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, destaque alguma contribuição do trabalho._
-O trabalho visa investigar o impacto da qualidade do sono nos estudantes universitários brasileiros, abordando seus efeitos no desempenho acadêmico, atlético, saúde física e mental. Propõe-se investigar e superar hábitos prejudiciais à higiene do sono, utilizando dados de pesquisas coletados nas universidades por meio de ferramentas eficazes para medir tais hábitos e sua influência direta na qualidade do sono.
+_O trabalho visa investigar o impacto da qualidade do sono nos estudantes universitários brasileiros, abordando seus efeitos no desempenho acadêmico, atlético, saúde física e mental. Propõe-se investigar e superar hábitos prejudiciais à higiene do sono, utilizando dados de pesquisas coletados nas universidades por meio de ferramentas eficazes para medir tais hábitos e sua influência direta na qualidade do sono._
 
 ## 2. Participantes do processo
 
