@@ -48,7 +48,7 @@ O objetivo geral deste trabalho é desenvolver um sistema inteligente para anali
 
 ####    Objetivos específicos
 
-  Com base nisso o nosso objetivo especifico é o sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor melhor com base nas analise o motivo do mesmo e tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a mfalta de compromisso nas  realização das tarefas da vida diária.
+  Com base nisso o nosso objetivo especifico é o a ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor melhor com base nas analise o motivo do mesmo e tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a mfalta de compromisso nas  realização das tarefas da vida diária.
 
 
 
