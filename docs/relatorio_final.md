@@ -48,12 +48,8 @@ O objetivo geral deste trabalho é desenvolver um sistema inteligente para anali
 
 ####    Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde 
-você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar 
-no seu trabalho.
+  Com base nisso o nosso objetivo especifico é o sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor melhor com base nas analise o motivo do mesmo e tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a mfalta de compromisso nas  realização das tarefas da vida diária.
 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 
 ###    Justificativas
