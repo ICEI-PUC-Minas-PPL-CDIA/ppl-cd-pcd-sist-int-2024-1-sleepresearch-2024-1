@@ -1,17 +1,17 @@
 # Sleep Research
 
 
-** Arthur Henrique Chaves Oliveira **
-** Júlio Lage Alexandre **
-** Rhudson Douglas Mota Sampaio **
-** Sara Alves Martins **
-** Sophia Neves Alvim Ottoni **
+* Arthur Henrique Chaves Oliveira 
+* Júlio Lage Alexandre
+* Rhudson Douglas Mota Sampaio 
+* Sara Alves Martins 
+* Sophia Neves Alvim Ottoni 
 
 ---
 
 Professores:
 
-** Prof. Hugo Bastos de Paula **
+* Prof. Hugo Bastos de Paula 
 
 ---
 
