@@ -34,9 +34,9 @@ A introdução deve apresentar de dois a quatro parágrafos de contextualizaçã
 
 ###    Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. Exemplificadamente, segundo informações do artigo “Fatores associados a distúrbios do sono em estudantes universitários"[1], 32% dos estudantes apresentam sono insuficiente nos dias de aula e, 18,6%, latência longa nos dias de aula. Sendo assim, torna-se útil o tratamento de dados oriundos da relação entre a qualidade de sono e desempenho acadêmico em um mundo em que a educação assume um papel extremamente importante.
+
+Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. Mais especificamente, o projeto está inserido na esfera escolar, buscando observar se há associação entre uma boa rotina de sono e um bom desempenho acadêmico.
 
 ###    Problema
 
@@ -215,7 +215,7 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 Por exemplo:
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1]** - _CARONE, M. M. C., et al. (2019).Fatores associados a distúrbios do sono em estudantes universitários. Universidade Federal de Peletos, Pelotas, p.1, Set, 2019._
 
 **[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
@@ -238,7 +238,3 @@ Dos artefatos (armazenado do repositório);
 Da apresentação final (armazenado no repositório);
 
 Do vídeo de apresentação (armazenado no repositório).
-
-
-
-
