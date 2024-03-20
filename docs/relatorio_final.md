@@ -1,18 +1,17 @@
-# TITULO DO PROJETO
+# Sleep Research
 
 
-**Nome completo do Aluno 1, email do aluno 1**
-
-**Nome completo do Aluno 2, email do aluno 2**
-
-**Nome completo do Aluno 3, email do aluno 3**
+* Arthur Henrique Chaves Oliveira 
+* Júlio Lage Alexandre
+* Rhudson Douglas Mota Sampaio 
+* Sara Alves Martins 
+* Sophia Neves Alvim Ottoni 
 
 ---
 
 Professores:
 
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
+* Prof. Hugo Bastos de Paula 
 
 ---
 
@@ -27,10 +26,9 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ---
 
-
 ## Introdução
 
-A introdução deve apresentar de dois a quatro parágrafos de contextualização do trabalho. 
+O trabalho focaliza na importância do sono, estabelecendo conexões entre este hábito e as dificuldades acadêmicas decorrentes de práticas inadequadas.
 
 ###    Contextualização
 
@@ -40,52 +38,23 @@ Haja vista essas pesquisas, que ressaltam uma problemática contemporânea assoc
 
 ###    Problema
 
-Nesse momento você deve apresentar o problema que seu agente pretende resolver. 
-No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se  houver: 
-empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, 
-pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve 
-sucintamente apresentar o cenário de problema da empresa. A empresa só deve ser citada 
-explicitamente se o aluno tiver autorização para tal.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária.
 
 ###    Objetivo geral
 
-Nesta seção deve-se escrever um pequeno parágrafo ou frase com o **objetivo geral** 
-do trabalho. O objetivo deve ser bem direto, específico e definido com verbos de 
-ação (elaborar, propor, avaliar, comparar etc.). No caso deste projeto, o objetivo é
-"desenvolver um sistema inteligente para ...". O seu objetivo geral deve ser uma
-pergunta orientada a dados. Ou seja, ela deve incluir de forma geral os dados em que
-os modelos irão se basear para atingir o objetivo.
+O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico.
 
 ####    Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde 
-você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar 
-no seu trabalho.
+  Com base nisso o nosso objetivo especifico é o a ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor melhor com base nas analise o motivo do mesmo e tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a mfalta de compromisso nas  realização das tarefas da vida diária.
 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 
 ###    Justificativas
 
-Mostre também as **justificativas** para o  desenvolvimento do seu trabalho e, caso deseje, 
-destaque alguma contribuição do trabalho.
-
-A justific ativa deve descrever a importância ou a motivação para o desenvolvimento do 
-sistema inteligente escolhido. Indique as razões pelas quais você escolheu seus objetivos 
-específicos ou as razões para aprofundar em certos aspectos do software.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-
+O trabalho visa investigar o impacto da qualidade do sono nos estudantes universitários brasileiros, abordando seus efeitos no desempenho acadêmico, atlético, saúde física e mental. Propõe-se investigar e superar hábitos prejudiciais à higiene do sono, utilizando dados de pesquisas coletados nas universidades por meio de ferramentas eficazes para medir tais hábitos e sua influência direta na qualidade do sono.
 
 ##    Público alvo
 
