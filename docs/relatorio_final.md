@@ -32,7 +32,7 @@ O trabalho focaliza na importância do sono, estabelecendo conexões entre este 
 
 ###    Contextualização
 
-A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. Exemplificadamente, segundo informações do artigo “Fatores associados a distúrbios do sono em estudantes universitários"[1], 32% dos estudantes apresentam sono insuficiente nos dias de aula e, 18,6%, latência longa nos dias de aula. Sendo assim, torna-se útil o tratamento de dados oriundos da relação entre a qualidade de sono e desempenho acadêmico em um mundo em que a educação assume um papel extremamente importante.
+A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. Exemplificadamente, segundo Carone et al.(2020), "[...]32% apresentaram sono insuficiente nos dias de aula, 8,2% sono insuficiente nos finais de semana, 18,6% latência longa nos dias de aula, 17,2% latência longa nos finais de semana, 30% baixa qualidade autopercebida, 12,7% despertares noturnos e 32,2% sonolência diurna". Sendo assim, torna-se útil o tratamento de dados oriundos da relação entre a qualidade de sono e desempenho acadêmico em um mundo em que a educação assume um papel extremamente importante.
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. Mais especificamente, o projeto está inserido na esfera escolar, buscando observar se há associação entre uma boa rotina de sono e um bom desempenho acadêmico.
 
@@ -184,7 +184,7 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 Por exemplo:
 
-**[1]** - _CARONE, M. M. C., et al. (2019).Fatores associados a distúrbios do sono em estudantes universitários. Universidade Federal de Peletos, Pelotas, p.1, Set, 2019._
+**[1]** - _Carone, Caroline Maria de Mello; Silva, Bianca Del Ponte da; Rodrigues, Luciana Tovo; Tavares, Patrice de Souza; Carpena, Marina Xavier; Santos, Iná S. Fatores associados a distúrbios do sono em estudantes universitários. **Cadernos de Saúde Pública 2020**, v.36, n.3, mar. 2020. Disponível em: <https://cadernos.ensp.fiocruz.br/ojs/index.php/csp/article/view/7325>. Acesso em: 21 mar. 2024._
 
 **[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
