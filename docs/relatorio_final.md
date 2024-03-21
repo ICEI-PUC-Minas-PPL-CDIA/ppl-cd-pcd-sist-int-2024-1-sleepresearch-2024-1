@@ -32,15 +32,15 @@ O trabalho focaliza na importância do sono, estabelecendo conexões entre este 
 
 ###    Contextualização
 
-A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. Exemplificadamente, segundo Carone et al.(2020), "[...]32% apresentaram sono insuficiente nos dias de aula, 8,2% sono insuficiente nos finais de semana, 18,6% latência longa nos dias de aula, 17,2% latência longa nos finais de semana, 30% baixa qualidade autopercebida, 12,7% despertares noturnos e 32,2% sonolência diurna"[1]. Sendo assim, torna-se útil o tratamento de dados oriundos da relação entre a qualidade de sono e desempenho acadêmico em um mundo em que a educação assume um papel extremamente importante.
+A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. Exemplificadamente, segundo uma pesquisa feita na Universidade Federal de Pelotas (UFPel) por Carone et al. (2020), "Dos 1.865 estudantes, 32% apresentaram sono insuficiente nos dias de aula, 8,2% sono insuficiente nos finais de semana, 18,6% latência longa nos dias de aula, 17,2% latência longa nos finais de semana, 30% baixa qualidade autopercebida, 12,7% despertares noturnos e 32,2% sonolência diurna"[^1]. Sendo assim, torna-se útil o tratamento de dados oriundos da relação entre a qualidade de sono e desempenho acadêmico em um mundo em que a educação assume um papel extremamente importante.
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. Mais especificamente, o projeto está inserido na esfera escolar, buscando observar se há associação entre uma boa rotina de sono e um bom desempenho acadêmico.
 
 ###    Problema
 
-Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
+Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas segundo Pereira (2013, p. 8)[^2], como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
 
-Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária.
+Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária (PEREIRA, 2013, p. 57)[^2].
 
 ###    Objetivo geral
 
@@ -172,28 +172,10 @@ Uma conclusão deve ter 3 partes:
 
 # REFERÊNCIAS
 
-Como um projeto de sistema inteligente não requer revisão bibliográfica, 
-a inclusão das referências não é obrigatória. No entanto, caso você 
-tenha utilizado referências na introdução ou deseje 
-incluir referências relacionadas às tecnologias, padrões, ou metodologias 
-que serão usadas no seu trabalho, relacione-as de acordo com a ABNT.
 
-Verifique no link abaixo como devem ser as referências no padrão ABNT:
+**[^1]** - _CARONE, Caroline Maria de Mello; Silva, Bianca Del Ponte da; Rodrigues, Luciana Tovo; Tavares, Patrice de Souza; Carpena, Marina Xavier; Santos, Iná S. Fatores associados a distúrbios do sono em estudantes universitários. **Cadernos de Saúde Pública 2020**, v.36, n.3, mar. 2020. Disponível em: <https://cadernos.ensp.fiocruz.br/ojs/index.php/csp/article/view/7325>. Acesso em: 21 mar. 2024._
 
-http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
-
-Por exemplo:
-
-**[1]** - _Carone, Caroline Maria de Mello; Silva, Bianca Del Ponte da; Rodrigues, Luciana Tovo; Tavares, Patrice de Souza; Carpena, Marina Xavier; Santos, Iná S. Fatores associados a distúrbios do sono em estudantes universitários. **Cadernos de Saúde Pública 2020**, v.36, n.3, mar. 2020. Disponível em: <https://cadernos.ensp.fiocruz.br/ojs/index.php/csp/article/view/7325>. Acesso em: 21 mar. 2024._
-
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
+**[^2]** - _PEREIRA, Ana Raquel do Souto. **Hábitos de sono em estudantes universitários**. Dissertação (Mestrado em Ciências Farmacêuticas) - Faculdade de Ciências da Saúde, Universidade Fernando Pessoa. Porto, p. 84. 2013. Disponível em: <http://hdl.handle.net/10284/4079>. Acesso em: 21 mar. 2024._
 
 
 # APÊNDICES
