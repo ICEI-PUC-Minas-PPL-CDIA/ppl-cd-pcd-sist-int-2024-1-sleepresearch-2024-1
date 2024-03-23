@@ -33,9 +33,13 @@ Em outras palavras, a investigação visa abranger tanto uma problemática do be
 
 ###    Contextualização
 
-A questão do sono é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. 
-Exemplificadamente, segundo uma pesquisa feita na Universidade Federal de Pelotas (UFPel) por Carone et al. (2020), "Dos 1.865 estudantes, 32% apresentaram sono insuficiente nos dias de aula, 8,2% sono insuficiente nos finais de semana, 18,6% latência longa nos dias de aula, 17,2% latência longa nos finais de semana, 30% baixa qualidade autopercebida, 12,7% despertares noturnos e 32,2% sonolência diurna". 
+Esta questão do sono já é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. 
+Um exemplo, foi uma pesquisa feita na Universidade Federal de Pelotas (UFPel) por Carone et al. (2020), segundo ela: "Dos 1.865 estudantes, 32% apresentaram sono insuficiente nos dias de aula, 8,2% sono insuficiente nos finais de semana, 18,6% latência longa nos dias de aula, 17,2% latência longa nos finais de semana, 30% baixa qualidade autopercebida, 12,7% despertares noturnos e 32,2% sonolência diurna". 
 Portanto, visualizando estes números pode-se notar um alto percentual de estudantes que possuem problemas noturnos tanto nos dias letivos quanto nos finais de semana.
+
+Outra pesquisa relevante feita por Tozer (2018) em que ele analisa a média de sono da população de diversos países, chegando a conclusão que países mais ricos possuem um tempo de sono maior.
+Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte mais ceda em 13%. 
+Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. 
 Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. 
@@ -43,9 +47,9 @@ Sabendo disso, torna-se necessário abordar, mais especificamente, a relação e
 
 ###    Problema
 
-Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos<sup>(2)</sup>. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
+Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos<sup>(3)</sup>. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
 
-Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>(2)</sup>.
+Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>(3)</sup>.
 
 ###    Objetivo geral
 
@@ -180,7 +184,9 @@ Uma conclusão deve ter 3 partes:
 
 **[1]** - _CARONE, Caroline Maria de Mello; Silva, Bianca Del Ponte da; Rodrigues, Luciana Tovo; Tavares, Patrice de Souza; Carpena, Marina Xavier; Santos, Iná S. Fatores associados a distúrbios do sono em estudantes universitários. **Cadernos de Saúde Pública 2020**, v.36, n.3, mar. 2020. Disponível em: <https://cadernos.ensp.fiocruz.br/ojs/index.php/csp/article/view/7325>. Acesso em: 21 mar. 2024._
 
-**[2]** - _PEREIRA, Ana Raquel do Souto. **Hábitos de sono em estudantes universitários**. 84 f.Dissertação (Mestrado em Ciências Farmacêuticas) - Faculdade de Ciências da Saúde, Universidade Fernando Pessoa, Porto, 2013. Disponível em: <http://hdl.handle.net/10284/4079>. Acesso em: 21 mar. 2024._
+**[2]** - _TOZER, James. Which countries get the most sleep?. **The Economist - 1843 magazine**. 1 mar. 2018. Disponível em: <https://www.economist.com/1843/2018/03/01/which-countries-get-the-most-sleep>. Acesso em: 23 mar. 2024._
+
+**[3]** - _PEREIRA, Ana Raquel do Souto. **Hábitos de sono em estudantes universitários**. 84 f.Dissertação (Mestrado em Ciências Farmacêuticas) - Faculdade de Ciências da Saúde, Universidade Fernando Pessoa, Porto, 2013. Disponível em: <http://hdl.handle.net/10284/4079>. Acesso em: 21 mar. 2024._
 
 
 # APÊNDICES
