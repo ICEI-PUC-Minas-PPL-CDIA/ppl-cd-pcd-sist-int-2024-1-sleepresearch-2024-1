@@ -21,14 +21,15 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. _
 
 ---
 
 ## Introdução
 
-O trabalho focaliza na importância do sono, estabelecendo conexões entre este hábito e as dificuldades acadêmicas decorrentes de práticas inadequadas.
+Mesmo com todos os avanços científicos, técnicos e tecnológicos tidos na contemporaneidade, vários desafios mundiais estão em pauta, exigindo um trabalho colaborativo e global para serem minimizados. Sendo assim, a Organização das Nações Unidas (ONU) definiu, em 2015, 17 objetivos globais. Dentre estes, tem um que objetiva a saúde e bem-estar e, embora não haja uma meta dentro dessa área que fale especificamente sobre o sono, estudos mostram que há uma relação muito forte entre esse hábito e a saúde humana. Entrando mais a fundo, em diversas estatísticas observa-se um comportamento esperado quando se analisa o desempenho em certas atividades - físicas e mentais - e os maus hábitos de dormir. Assim, este estudo propõe investigar as possíveis associações entre desempenho acadêmico e padrões de sono, visando obter "insights" que possam ser transformados em conhecimento útil, baseado em dados, para ressaltar a importância de bons hábitos para extrair os benefícios da educação.
+
+Em outras palavras, a investigação visa abranger tanto uma problemática do bem-estar e da saúde dos indivíduos quanto a interferência de um mau sono nas atividades acadêmicas. Pesquisas mostram que sociedades com melhor descanso tendem a ser mais prósperas. Isso levanta a questão de se o sono realmente desempenha um papel tão significativo no desenvolvimento humano. Desse modo, seria condizente conscientizar um certo público-alvo para este usufruir do conhecimento delineado por dados e tomar ações. Adicionalmente, há o intuito de investigar possíveis hábitos, como o de não praticar atividades físicas, com noites mal dormidas ou distúrbios de insônia. E tudo isso para que seja possível o levante do problema e/ou a análise de possíveis intervenções. Assim, utilizando-se a metodologia "Knowledge Discovery in Database" (KDD) e seguindo as suas etapas, espera-se obter produtos pertinentes.
 
 ###    Contextualização
 
