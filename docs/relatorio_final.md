@@ -21,14 +21,18 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. _
 
 ---
 
 ## Introdução
 
-O trabalho focaliza na importância do sono, estabelecendo conexões entre este hábito e as dificuldades acadêmicas decorrentes de práticas inadequadas.
+Draft 
+
+Para além dos avanços científicos, técnicos e tecnológicos tidos na contemporaneidade, também houve a chegada de novos desafios que exigem um trabalho colaborativo e cosmopolítico para serem minimizados. Sendo assim, a Organização das Nações Unidas (ONU) definiu, em 2015, 17 objetivos globais. Dentre estes, existe um que objetiva a saúde e bem-estar e, embora não haja uma meta dentro dessa área que fale especificamente sobre o sono, estudos mostram que há uma relação muito forte entre esse hábito e a saúde humana. Entrando mais afundo, em diversas estatísticas observa-se um comportamento esperado quando se analisa o desempenho em certas atividades - físicas e mentais - e os maus hábitos de dormir. Dessa forma, o trabalho propõe-se investigar possíveis associações entre desempenho acadêmico e o sono, de modo a obter-se "insights" e transformá-los em um conhecimento baseado em dados útil para ressaltar a importância de bons hábitos.
+(segundo parágrafo aqui)
+(terceiro parágrafo aqui)
+(quarto parágrafo aqui)
 
 ###    Contextualização
 
