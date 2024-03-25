@@ -57,6 +57,8 @@ Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode a
 
 O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico, tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a falta de compromisso nas  realização das tarefas da vida diária e ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor esse fenomeno.
 
+O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico. Em outras palavras, o projeto busca identificar relação na qualidade do sono dos alunos dos cursos de graduação de certas instituições de ensino, com a finalidade de compreender a associação entre noites mal dormidas e a redução da produtividade em sala de aula e nos estudos independentes.
+
 ####    Objetivos específicos
 
 Implementar algoritmos de análise de dados capazes de identificar padrões de sono e desempenho acadêmico entre os estudantes de diferentes cursos de graduação em determinadas instituições de ensino. (//ETL)
@@ -84,21 +86,7 @@ Considerando a relevância do sono para a saúde e o desempenho humano, sustenta
 
 ##    Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. 
-O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários 
-na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos 
-usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, 
-diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-
+O projeto tem como público alvo universitários (de qualquer modalidade de curso) que estudem no Brasil, possuam mais de 18 anos e que se enquadrem em qualquer faixa de renda e morem em qualquer região do país.
 
 ## Análise exploratórida dos dados
 
