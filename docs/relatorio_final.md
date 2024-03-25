@@ -44,11 +44,24 @@ Se for levado em consideração que é na faculdade que a maioria dos alunos pas
 
 ###    Objetivo geral
 
-O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico.
+O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico, tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a falta de compromisso nas  realização das tarefas da vida diária e ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor esse fenomeno.
 
 ####    Objetivos específicos
 
-  Com base nisso o nosso objetivo especifico é o a ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor melhor com base nas analise o motivo do mesmo e tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a mfalta de compromisso nas  realização das tarefas da vida diária.
+Implementar algoritmos de análise de dados capazes de identificar padrões de sono e desempenho acadêmico entre os estudantes de diferentes cursos de graduação em determinadas instituições de ensino.
+
+Este objetivo específico envolverá as seguintes etapas:
+
+- Coleta e preparação dos dados: Recolher dados sobre o sono dos alunos, incluindo horas de sono, qualidade do sono, padrões de sono irregulares, entre outros, bem como dados sobre o desempenho acadêmico, como notas, frequência, e feedback dos professores.
+
+- Pré-processamento dos dados: Limpar e organizar os dados coletados para garantir a consistência e a integridade, além de remover dados irrelevantes ou duplicados.
+
+- Desenvolvimento de algoritmos de análise de dados: Utilizar técnicas de análise estatística e aprendizado de máquina para identificar correlações entre os padrões de sono dos alunos e seu desempenho acadêmico. Isso pode envolver técnicas como regressão linear, árvores de decisão, redes neurais, entre outras.
+
+- Avaliação e validação dos resultados: Avaliar a eficácia dos algoritmos desenvolvidos em identificar padrões significativos de sono e desempenho acadêmico. Isso incluirá a comparação dos resultados obtidos com estudos prévios e a realização de testes estatísticos para verificar a significância das correlações identificadas.
+
+- Integração dos resultados em um sistema inteligente: Integrar os resultados da análise de dados em um sistema inteligente que seja capaz de fornecer insights úteis sobre a relação entre o sono dos alunos e seu desempenho acadêmico. Isso pode envolver a criação de visualizações interativas e relatórios automatizados para facilitar a interpretação dos resultados pelos usuários.
+
 
 
 
