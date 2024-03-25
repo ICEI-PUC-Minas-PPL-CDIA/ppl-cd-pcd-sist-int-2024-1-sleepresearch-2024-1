@@ -43,13 +43,15 @@ Essa deprivação do sono também pode extender seus impactos para um país inte
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. 
 Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. 
-Sabendo disso, torna-se necessário abordar, mais especificamente, a relação entre a qualidade de sono e desempenho acadêmico, buscando observar se há associação entre ambos, em um mundo em que a educação assume um papel extremamente importante.
+Sabendo disso, torna-se necessário abordar, mais especificamente, a relação entre a qualidade de sono e desempenho acadêmico, buscando observar se há associação entre ambos, em um mundo em que a educação assume um papel importante.
 
 ###    Problema
 
-Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos<sup>(3)</sup>. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
+Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos<sup>[3]</sup>. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
 
-Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>(3)</sup>.
+Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>[3]</sup>. 
+
+(problemas macros)
 
 ###    Objetivo geral
 
@@ -57,7 +59,7 @@ O objetivo geral deste trabalho é desenvolver um sistema inteligente para anali
 
 ####    Objetivos específicos
 
-Implementar algoritmos de análise de dados capazes de identificar padrões de sono e desempenho acadêmico entre os estudantes de diferentes cursos de graduação em determinadas instituições de ensino.
+Implementar algoritmos de análise de dados capazes de identificar padrões de sono e desempenho acadêmico entre os estudantes de diferentes cursos de graduação em determinadas instituições de ensino. (//ETL)
 
 Este objetivo específico envolverá as seguintes etapas:
 
@@ -76,7 +78,9 @@ Este objetivo específico envolverá as seguintes etapas:
 
 ###    Justificativas
 
-O trabalho visa investigar o impacto da qualidade do sono nos estudantes universitários brasileiros, abordando seus efeitos no desempenho acadêmico, atlético, saúde física e mental. Propõe-se investigar e superar hábitos prejudiciais à higiene do sono, utilizando dados de pesquisas coletados nas universidades por meio de ferramentas eficazes para medir tais hábitos e sua influência direta na qualidade do sono.
+O que motivou a escolha dessa temática foi, após leitura de estudos e também observações cotidianas, a consciência de que o sono é uma necessidade básica do ser humano e que, muitas vezes, é negligenciado. Um ciclo circadiano equilibrado é responsável por inúmeros benefícios e tem influencia direta nas funções metabólcias humanas, e isso é apontado em diversas pesquisas científicas. Entretanto, inúmeros fatores fazem com que os indivíduos não consigam sustentar uma boa higiene do sono, impactando suas atividades diárias. O trabalho enfoca na perspectiva de sono no ramo acadêmico devido ao reconhecimento de padrões de baixo desempenho dos alunos com a má qualidade de descanso, e como isso pode afetar a educação do país e a vida profissional.
+
+Considerando a relevância do sono para a saúde e o desempenho humano, sustenta-se o uso dos processos de KDD (Knowledge Discovery in Databases) e ETL (Extract, Transform, Load) como metodologias para a obtenção de conhecimento, permitindo a extração de dados e a geração de insights. Dessa forma, ao trabalhar com bases de dados selecionadas que se relacionam tanto diretamente quanto indiretamente com a temática do sono, é possível transformá-las em estatísticas relevantes. Com isso, as instituições de ensino poderão captar tais resultados, utilizando o conhecimento gerado por dados para conscientizar sobre a importância do sono na busca por melhores resultados educacionais.    
 
 ##    Público alvo
 
