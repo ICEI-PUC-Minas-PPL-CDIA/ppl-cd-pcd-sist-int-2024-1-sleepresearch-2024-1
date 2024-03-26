@@ -84,6 +84,22 @@ O trabalho visa investigar o impacto da qualidade do sono nos estudantes univers
 
 O projeto tem como público alvo universitários (de qualquer modalidade de curso) que estudem no Brasil, possuam mais de 18 anos e que se enquadrem em qualquer faixa de renda e morem em qualquer região do país.
 
+Diagrama de persona:
+Nome	:	Lucas Martins
+Gênero	:	Masculino
+Idade	:	23
+Cidade	:	Belo Horizonte
+
+Bio:
+Lucas é formado em ciência da computação e está atualmente fazendo uma pós em segurança da informação, trabalha como desenvolvedor de sistemas e mora sozinho no centro da cidade. 
+
+Objetivos:
+•Se formar em sua pós graduação. 
+•Conseguir um melhor emprego, com um maior salário.
+
+Problemas:
+Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de foco causada pela má qualidade de sono.
+
 ## Análise exploratórida dos dados
 
 ###    Dicionário de dados
