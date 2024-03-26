@@ -21,7 +21,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. _
+_**Resumo** Este estudo investiga a correlação entre a qualidade do sono e o desempenho acadêmico de estudantes universitários no Brasil. Baseando-se em dados de pesquisas acadêmicas e de saúde pública, examina-se como noites mal dormidas podem influenciar negativamente a produtividade em sala de aula e a saúde dos alunos. Os resultados destacam a necessidade de promover uma boa higiene do sono entre os estudantes como parte dos esforços para melhorar a qualidade da educação e o bem-estar geral da população. Enfoca-se a importância de conscientizar sobre os impactos do sono na educação e na vida dos alunos, ressaltando a necessidade de intervenções para melhorar os hábitos de sono e, consequentemente, os resultados acadêmicos._
 
 ---
 
