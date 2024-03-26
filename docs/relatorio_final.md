@@ -55,9 +55,7 @@ Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode a
 
 ###    Objetivo geral
 
-O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico, tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a falta de compromisso nas  realização das tarefas da vida diária e ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor esse fenomeno.
-
-O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico. Em outras palavras, o projeto busca identificar relação na qualidade do sono dos alunos dos cursos de graduação de certas instituições de ensino, com a finalidade de compreender a associação entre noites mal dormidas e a redução da produtividade em sala de aula e nos estudos independentes.
+O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico. Em outras palavras, o projeto busca identificar relação na qualidade do sono dos alunos dos cursos de graduação de certas instituições de ensino, com a finalidade de compreender a associação entre noites mal dormidas e a redução da produtividade em sala de aula e nos estudos independentes, além da redução significativa na qualidade de vida.
 
 ####    Objetivos específicos
 
@@ -75,9 +73,6 @@ Este objetivo específico envolverá as seguintes etapas:
 
 - Integração dos resultados em um sistema inteligente: Integrar os resultados da análise de dados em um sistema inteligente que seja capaz de fornecer insights úteis sobre a relação entre o sono dos alunos e seu desempenho acadêmico. Isso pode envolver a criação de visualizações interativas e relatórios automatizados para facilitar a interpretação dos resultados pelos usuários.
 
-
-
-
 ###    Justificativas
 
 O que motivou a escolha dessa temática foi, após leitura de estudos e também observações cotidianas, a consciência de que o sono é uma necessidade básica do ser humano e que, muitas vezes, é negligenciado. Um ciclo circadiano equilibrado é responsável por inúmeros benefícios e tem influencia direta nas funções metabólcias humanas, e isso é apontado em diversas pesquisas científicas. Entretanto, inúmeros fatores fazem com que os indivíduos não consigam sustentar uma boa higiene do sono, impactando suas atividades diárias. O trabalho enfoca na perspectiva de sono no ramo acadêmico devido ao reconhecimento de padrões de baixo desempenho dos alunos com a má qualidade de descanso, e como isso pode afetar a educação do país e a vida profissional.
@@ -87,8 +82,6 @@ Considerando a relevância do sono para a saúde e o desempenho humano, sustenta
 ##    Público alvo
 
 O projeto tem como público alvo universitários (de qualquer modalidade de curso) que estudem no Brasil, possuam mais de 18 anos e que se enquadrem em qualquer faixa de renda e morem em qualquer região do país.
-
-
 
 ## Análise exploratórida dos dados
 
@@ -101,13 +94,11 @@ com seu significado, seu tipo (inteiro, real, textual, categórico, etc).
 Este projeto deve utilizar pelo menos duas fontes de dados. Uma fonte principal e 
 uma fonte para enriquecimentos dos dados principais.
 
-
 ###    Descrição de dados
 
 Utilize a análise descritiva baseada em estatística de primeira ordem para descrever os dados.
 Como descrever dados numéricos: média, desvio padrão, mínimo, máximo, quartis, histograma, etc.
 Como descrever dados qualitativos (categóricos): moda (valor mais frequente), quantidade de valores distintos (categorias), distribuição das categorias (histograma), etc.
-
 
 ## Preparação dos dados
 
@@ -117,7 +108,6 @@ A preparação dos dados consiste dos seguintes passos:
 > - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
 > - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
 > - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
-
 
 ## Indução de modelos
 
