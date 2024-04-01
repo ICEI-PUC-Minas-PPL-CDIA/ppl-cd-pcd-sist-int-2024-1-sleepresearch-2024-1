@@ -104,18 +104,35 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ###    Dicionário de dados
 
-Apresente uma descrição das bases de dados a serem utilizadas. 
-Dicionários de dados devem conter as bases de dados, os nomes dos atributos 
-com seu significado, seu tipo (inteiro, real, textual, categórico, etc).
+O projeto vai utilizar o dataset "Student_Performance" como sua fonte de dados principal. Este dataset busca examinar os fatores que influênciam a perfomance academica.
 
-Este projeto deve utilizar pelo menos duas fontes de dados. Uma fonte principal e 
-uma fonte para enriquecimentos dos dados principais.
+Nele temos os seguintes atributos:
+- **Hours Studied** - Atributo que observa o numero total de horas gasta estudando. Tipo: numeros inteiros.
+- **Previous Scores** - Atributo que observa a nota obtida pelos estudantes em exames anteriores. Tipo: numeros inteiros.
+- **Extracurricular Activities** - Atributo que observa se um aluno participa em atividades extracurriculares ou não. Tipo: booleano.
+- **Sleep Hours** - Atributo que observa o tempo médio de sono que um estudante tem por dia. Tipo: numeros inteiros.
+- **Sample Question Papers Practiced** - Atributo que observa o numero de questionarios não obrigatórios realizados. Tipo: numero inteiro.
+- **Performance Index** - atributo que observa a performance média de cada estudante. Tipo: numero real.
+
+
+Para complementar e enriquecer a base principal temos o dataset "Student Stress Factors" que tem como objetivo relacionar variaveis que podem causar ou são causa de estress.
+
+Nele temos os seguintes atributos:
+- **Kindly Rate your Sleep Quality** - Atributo que observa a autoavaliação que o estudante da para seu sono. Tipo: numero inteiro.
+- **How many times a week do you suffer headaches** - Atributo que observa quantas vezes o aluno teve dor de cabeça na semana. Tipo: numero inteiro.
+- **How would you rate you academic performance** - Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica. Tipo: numero inteiro.
+- **how would you rate your study load?** - Atributo que observa a nota que o estudante da para sua grade curricular . Tipo: numero inteiro.
+- **How many times a week you practice extracurricular activities** - Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares. Tipo numero inteiro.
+- **How would you rate your stress levels?** - Atributo que observa a nota que o estudante da para seu nível de estress. Tipo: numero inteiro.
 
 ###    Descrição de dados
 
-Utilize a análise descritiva baseada em estatística de primeira ordem para descrever os dados.
-Como descrever dados numéricos: média, desvio padrão, mínimo, máximo, quartis, histograma, etc.
-Como descrever dados qualitativos (categóricos): moda (valor mais frequente), quantidade de valores distintos (categorias), distribuição das categorias (histograma), etc.
+- **Hours Studied** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto estudando
+- **Previous Scores** - Utilizando uma analise em quartis para observar quantos alunos tiveram uma nota acima da média.
+- **Extracurricular Activities** - Fazendo a moda dos valores contidos no atributo podemos descobrir se há mais alunos que praticam atividades extracurriculares ou não.
+- **Sleep Hours** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto dormindo.
+- **Sample Question Papers Practiced** - Ao realizar o calculo da média deste campo pode-se avaliar qual numero de testes que é realizado pelo alunos
+- **Performance Index** - Realizar um histograma é bem aceito neste campo, poderiamos analizar o numeor de alunos que tiraram valores similares de nota.
 
 ## Preparação dos dados
 
