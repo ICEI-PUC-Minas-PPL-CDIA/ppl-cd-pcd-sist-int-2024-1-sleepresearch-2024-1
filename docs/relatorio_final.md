@@ -38,8 +38,7 @@ Um exemplo, foi uma pesquisa feita na Universidade Federal de Pelotas (UFPel) po
 Portanto, visualizando estes números pode-se notar um alto percentual de estudantes que possuem problemas noturnos tanto nos dias letivos quanto nos finais de semana.
 
 Outra pesquisa relevante feita por Tozer (2018) em que ele analisa a média de sono da população de diversos países, chegando a conclusão que países mais ricos possuem um tempo de sono maior.
-Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte mais ceda em 13%. 
-Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
+Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte mais cedo em 13%. Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. 
 Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. 
@@ -51,7 +50,7 @@ Tendo em vista o que foi apontado anteriormente, é de suma importância que sej
 
 Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>[2]</sup>. 
 
-Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode alterar a economia de um país. A exemplo disso, temos países com Estados Unidos, Reino Unido, Alemanha, Japão e Canadá que possuem uma perda consideravel no PIB anual, devido a falta de sono de seus trabalhadores. Essa perda pode ser causada de diversas formas, como o fato de que trabalhadores cansados são menos eficientes, tem mais chace de faltar e são mais sucetiveis a doenças. Outra causa é que a falta de sono durante o periodo academico afeta o desenvolvimento de habildiades, refletindo eventualmente no nível educacional do país e no mercado de trabalho<sup>[5]</sup>.
+Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode alterar a economia de um país. A exemplo disso, temos países com Estados Unidos, Reino Unido, Alemanha, Japão e Canadá que possuem uma perda consideravel no PIB anual, devido a falta de sono de seus trabalhadores. Essa perda pode ser causada de diversas formas, como o fato de que trabalhadores cansados são menos eficientes, tem mais chace de faltar e são mais sucetiveis a doenças. Outra causa é que a falta de sono durante o periodo academico afeta o desenvolvimento de habilidades, refletindo eventualmente no nível educacional do país e no mercado de trabalho<sup>[5]</sup>.
 
 ###    Objetivo geral
 
@@ -85,12 +84,12 @@ O projeto tem como público alvo universitários (de qualquer modalidade de curs
 
 ### Diagrama de persona:
 
-**Nome	:**	Lucas Martins  
-**Gênero	:**	Masculino  
-**Idade	:** 23  
-**Cidade	:**	Belo Horizonte
+**Nome:**	Lucas Martins  
+**Gênero:**	Masculino  
+**Idade:** 23  
+**Cidade:**	Belo Horizonte
 
-**Bio:** 
+**Bio.:** 
 Lucas é formado em ciência da computação e está atualmente fazendo uma pós em segurança da informação, trabalha como desenvolvedor de sistemas e mora sozinho no centro da cidade. 
 
 **Objetivos:**
