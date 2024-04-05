@@ -93,6 +93,17 @@ Utilize a análise descritiva baseada em estatística de primeira ordem para des
 Como descrever dados numéricos: média, desvio padrão, mínimo, máximo, quartis, histograma, etc.
 Como descrever dados qualitativos (categóricos): moda (valor mais frequente), quantidade de valores distintos (categorias), distribuição das categorias (histograma), etc.
 
+  (context da base usada)
+  (explicação primeiros gráficos)
+  (explicação segundo gráfico)
+
+  (context da segunda base usada)
+  (explicação grafico x)
+  (explicação grafico y)
+
+  (context da terceira base usada)
+  (explicação gráfico x)
+  (explicação grafico y)
 
 ## Preparação dos dados
 
