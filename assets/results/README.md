@@ -34,6 +34,18 @@ Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração 
 Por último, o gráfico "Causalidade entre a qualidade de sono, nível de estresse e performance acadêmica" mostra a dispersão promovida pela qualidade de sono e a performance acadêmica, juntamente com uma tonalidade avermelhada para quem tem um nível de estresse maior, uma tonalidade verde para quem tem um estresse médio, e uma tonalidade azul para quem tem estresse baixo.
 //draft//apenas ideia//sugiram outro grafico que abranja toda o conjunto de alunos//alguem edita esse texto
 
+Entrando na base secundária utilizada, que foi feita de maneira sintética, obtivemos resultados correlacionados com aqueles tidos inicialmente: pessoas com melhor empenho nos estudos e melhor sono tendem a ter melhor performance. Assim, os três primeiros gráficos são feitos pegando-se valores acima da mediana (55 em 100 de performance acadêmica) e valores abaixo da mediana, e isso em relação às três variáveis: qualidade do sono, tempo de estudo e realização de atividades.
+
+{grafico 1}
+{grafico 2}
+{grafico 3}
+
+Com esses gráficos, é possível extrair quais hábitos predominam mais na metade que tem maior performance e na metade com uma pior. Entretanto, para uma análise mais precisa, é preciso observar como isso acontece de maneira mais linear. Como que há um crescimento da performance conforme melhores hábitos. Assim, gera-se o conhecimento que os dados sintéticos produzidos correspondem às expectativas da priemeira base da dados analisadas e vice-versa. 
+
+{grafico 1}
+{grafico 2}
+{grafico 3}
+
 
 
 
