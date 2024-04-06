@@ -18,8 +18,9 @@ As estatísticas alcançadas são esperadas, menos naquela que se refere a indiv
 
 Similiarmente, o gráfico "Nível de estresse médio com base em cinco comportamentos" mostra, com base nas mesmas combinações comportamentais selecionadas, o resultado médio no nível de estresse desses cinco grupos. 
 
-{texto explicativo aqui}
+Os gráficos nos permitem enxergar alguns padrões, pois, ao comparar os grupos de indivíduos com sono baixo e estudo elevado, e indivíduos com sono baixo e estudo elevado, os resultados obtidos são de que a performance acadêmica de indivíduos que dormem mais tende a ser maior, mesmo com um menor tempo de estudo. Entretanto, o melhor cenário ainda seria a combinação de um estudo adequado e um tempo de estudo adequado, porque interferem de forma mais positiva na performance academica.
 
+É importante ressaltar que a base de dados extraída usou 520 alunos e que, na análise por comportamento, não houve a inclusão de todo o conjunto. A intenção nesses gráficos iniciais era a de fazer uma análise comparativa entre os hábitos. Além disso, os dados foram feitos por meio de uma autoavaliação dos alunos e é possível que tenham tido algumas discrepâncias, mas em geral os gráficos mostram um resultado esperado.
 {grafico aqui 3}
 
 Para analisar a quantidade de alunos em um total que tendem a certo comportamento, foi elaborado um gráfico de pizza que indicasse a composição em um conjunto de 305 alunos. Portanto, o gráfico "Composição dos cinco comportamentos dos estudantes" mostra a tendência maior em um todo. Pode ser útil para explorar os hábitos estudantis mais predominantes e menos predominantes.
