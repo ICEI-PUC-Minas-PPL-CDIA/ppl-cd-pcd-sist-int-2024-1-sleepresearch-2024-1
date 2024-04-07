@@ -4,10 +4,10 @@ Este diretório mantém os artefatos relatório à modelagem de dados do projeto
 
 Os principais documentos a serem produzidos são:
 
-* `Student_Performance.csv`
+* `Student Stress Factors.csv`
 	* base principal original. pode ser em qualquer formato tabular
 
-* `Student Stress Factors.csv; Dataset_HealthBehavAcadPerfAffect.sav`
+* `Student_Performance.csv`
 	* outras bases utilizadas no processo de enriquecimento
 
 * `final_processed_data.csv`
