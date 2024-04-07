@@ -4,15 +4,15 @@
 
 {grafico aqui 1}
 
-O gráfico "Performance acadêmica média com base em cinco comportamentos" ilustra o quão bem indivíduos com comportamentos similiares em relação ao tempo de estudo e qualidade de sono vão na escola. Para isso, foram analisadas as seguintes características: a qualidade do estudo - elevada, baixa ou média - qualidade do sono - elevada, baixa ou média. E, após isso, fazendo-se algumas combinações, houve a classificação em cinco grupos distintos: 
+O gráfico "Performance acadêmica média com base em cinco comportamentos" ilustra o quão bem indivíduos com comportamentos similiares vão na escola. Para isso, foram analisadas as seguintes características: a qualidade do estudo - elevada, baixa ou média - e a qualidade do sono - elevada, baixa ou média. E, após isso, fazendo-se algumas combinações, houve a classificação em cinco grupos distintos: 
 
-- Grupo A: sono elevado e estudo elevado;
-- Grupo B: sono elevado e estuda baixo;
-- Grupo C: sono baixo e estudo elevado;
-- Grupo D: sono baixo e estudo baixo;
-- Grupo E: sono médio e estudo médio.
+- Grupo 1: sono elevado e estudo elevado;
+- Grupo 2: sono elevado e estuda baixo;
+- Grupo 3: sono baixo e estudo elevado;
+- Grupo 4: sono baixo e estudo baixo;
+- Grupo 5: sono médio e estudo médio.
 
-As estatísticas alcançadas são esperadas, menos naquela que se refere a indivíduos que dormem mediamente e estudam mediamente, porque a performance acadêmica gerada foi maior daqueles com estudo elevado e sono elevado. Entretanto, pode-se fazer interpretações.
+As estatísticas alcançadas são esperadas, menos naquela que se refere aos indivíduos que dormem mediamente e estudam mediamente, porque a performance acadêmica gerada foi maior daqueles com estudo elevado e sono elevado. Entretanto, pode-se fazer interpretações.
 
 {gráfico aqui 2}
 
