@@ -4,11 +4,11 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando qu
 
 ## Integrantes
 
-* Arthur Henrique Chaves Oliveira *
-* Júlio Lage Alexandre *
-* Rhudson Douglas Mota Sampaio *
-* Sara Alves Martins *
-* Sophia Neves Alvim Ottoni *
+* Arthur Henrique Chaves Oliveira
+* Júlio Lage Alexandre
+* Rhudson Douglas Mota Sampaio
+* Sara Alves Martins
+* Sophia Neves Alvim Ottoni
 
 ## Professor
 
