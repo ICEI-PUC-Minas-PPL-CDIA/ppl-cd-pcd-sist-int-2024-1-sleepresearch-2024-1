@@ -30,7 +30,7 @@ Para analisar a quantidade de alunos em um total que tendem a certo comportament
 Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração do gráfico "Performance relacionada com escala qualitativa de sono e estudo". Uma linha relaciona a performance academica no eixo y com a qualidade de estudo no eixo x, e, a outra, com a qualidade de sono no eixo x também. 
 //draft//apenas ideia//sugiram outro grafico que abranja toda o conjunto de alunos//alguem edita esse texto
 
-![alt text](image.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/edit/merge-geral/assets/results/Student%20Stress%20Factors/image.png?raw=true)
 
 Por último, o gráfico "Causalidade entre a qualidade de sono, nível de estresse e performance acadêmica" mostra a dispersão promovida pela qualidade de sono e a performance acadêmica, juntamente com uma tonalidade avermelhada para quem tem um nível de estresse maior, uma tonalidade verde para quem tem um estresse médio, e uma tonalidade azul para quem tem estresse baixo.
 //draft//apenas ideia//sugiram outro grafico que abranja toda o conjunto de alunos//alguem edita esse texto
@@ -39,7 +39,7 @@ Entrando na base secundária utilizada, que foi feita de maneira sintética, obt
 
 ![Mediana](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/merge-geral/assets/results/Student%20Performance/Grafico1_Mediana.png?raw=true)
 ![Mediana](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/merge-geral/assets/results/Student%20Performance/Grafico2_mediana.png?raw=true)
-![Mediana](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/merge-geral/assets/results/Student%20Performance/Grafico3_linear.png?raw=true)
+![Mediana](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/merge-geral/assets/results/Student%20Performance/Grafico3_Mediana.png?raw=true)
 
 Com esses gráficos, é possível extrair quais hábitos predominam mais na metade que tem maior performance e na metade com uma pior. Entretanto, para uma análise mais precisa, é preciso observar como isso acontece de maneira mais linear. Como que há um crescimento da performance conforme melhores hábitos. Assim, gera-se o conhecimento que os dados sintéticos produzidos correspondem às expectativas da priemeira base da dados analisadas e vice-versa. 
 
