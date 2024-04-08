@@ -30,7 +30,7 @@ Para analisar a quantidade de alunos em um total que tendem a certo comportament
 Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração do gráfico "Performance relacionada com escala qualitativa de sono e estudo". Uma linha relaciona a performance academica no eixo y com a qualidade de estudo no eixo x, e, a outra, com a qualidade de sono no eixo x também. 
 
 
-![Grafico5_2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/edit/merge-geral/assets/results/Student%20Stress%20Factors/Grafico5_2.png?raw=true)
+![Grafico5_2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/Student%20Stress%20Factors/Grafico5_2.png?raw=true)
 
 Por último, o gráfico "Causalidade entre a qualidade de sono, nível de estresse e performance acadêmica" mostra a dispersão promovida pela qualidade de sono e a performance acadêmica, juntamente com uma tonalidade avermelhada para quem tem um nível de estresse maior, uma tonalidade verde para quem tem um estresse médio, e uma tonalidade azul para quem tem estresse baixo.
 
