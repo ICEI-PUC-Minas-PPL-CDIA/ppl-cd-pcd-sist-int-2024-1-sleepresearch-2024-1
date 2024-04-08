@@ -4,31 +4,30 @@
 
 {grafico aqui 1}
 
-O gráfico "Performance acadêmica média com base em cinco comportamentos" ilustra o quão bem indivíduos com comportamentos similiares vão na escola. Para isso, foram analisadas as seguintes características: a qualidade do estudo - elevada, baixa ou média - e a qualidade do sono - elevada, baixa ou média. E, após isso, fazendo-se algumas combinações, houve a classificação em cinco grupos distintos: 
+O gráfico "Performance acadêmica média com base em cinco comportamentos" ilustra o quão bem indivíduos com comportamentos similiares em relação ao tempo de estudo e qualidade de sono vão na escola. Para isso, foram analisadas as seguintes características: a qualidade do estudo - elevada, baixa ou média - qualidade do sono - elevada, baixa ou média. E, após isso, fazendo-se algumas combinações, houve a classificação em cinco grupos distintos: 
 
-- Grupo 1: sono elevado e estudo elevado;
-- Grupo 2: sono elevado e estuda baixo;
-- Grupo 3: sono baixo e estudo elevado;
-- Grupo 4: sono baixo e estudo baixo;
-- Grupo 5: sono médio e estudo médio.
+- Grupo A: sono elevado e estudo elevado;
+- Grupo B: sono elevado e estuda baixo;
+- Grupo C: sono baixo e estudo elevado;
+- Grupo D: sono baixo e estudo baixo;
+- Grupo E: sono médio e estudo médio.
 
-As estatísticas alcançadas são esperadas, menos naquela que se refere aos indivíduos que dormem mediamente e estudam mediamente, porque a performance acadêmica gerada foi maior daqueles com estudo elevado e sono elevado. Entretanto, pode-se fazer interpretações.
+As estatísticas alcançadas são esperadas, menos naquela que se refere a indivíduos que dormem mediamente e estudam mediamente, porque a performance acadêmica gerada foi maior daqueles com estudo elevado e sono elevado. Entretanto, pode-se fazer interpretações.
 
 {gráfico aqui 2}
 
 Similiarmente, o gráfico "Nível de estresse médio com base em cinco comportamentos" mostra, com base nas mesmas combinações comportamentais selecionadas, o resultado médio no nível de estresse desses cinco grupos. 
 
-Os gráficos nos permitem enxergar alguns padrões, pois, ao comparar os grupos de indivíduos com sono baixo e estudo elevado, e indivíduos com sono baixo e estudo elevado, os resultados obtidos são de que a performance acadêmica de indivíduos que dormem mais tende a ser maior, mesmo com um menor tempo de estudo. Entretanto, o melhor cenário ainda seria a combinação de um estudo adequado e um tempo de estudo adequado, porque interferem de forma mais positiva na performance academica.
+Os gráficos nos permitem enxergar alguns padrões, pois, ao comparar os grupos de indivíduos com sono baixo e estudo elevado, e indivíduos com sono baixo e estudo elevado, os resultados obtidos são de que a performance acadêmica de indivíduos que dormem mais tende a ser maior, mesmo com um menor tempo de estudo. Entretanto, o melhor cenário ainda seria a combinação de um estudo adequado e um tempo de estudo adequado, porque interferem de forma mais positiva na performance academica. 
 
 É importante ressaltar que a base de dados extraída usou 520 alunos e que, na análise por comportamento, não houve a inclusão de todo o conjunto. A intenção nesses gráficos iniciais era a de fazer uma análise comparativa entre os hábitos. Além disso, os dados foram feitos por meio de uma autoavaliação dos alunos e é possível que tenham tido algumas discrepâncias, mas em geral os gráficos mostram um resultado esperado.
 {grafico aqui 3}
 
 Para analisar a quantidade de alunos em um total que tendem a certo comportamento, foi elaborado um gráfico de pizza que indicasse a composição em um conjunto de 305 alunos. Portanto, o gráfico "Composição dos cinco comportamentos dos estudantes" mostra a tendência maior em um todo. Pode ser útil para explorar os hábitos estudantis mais predominantes e menos predominantes.
 
-{grafico aqui 4} 
+{grafico aqui 4.1 e 4.2} 
 
-Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração do gráfico "Performance relacionada com escala qualitativa de sono e estudo". Uma linha relaciona a performance academica no eixo y com a qualidade de estudo no eixo x, e, a outra, com a qualidade de sono no eixo x também. 
-//draft//apenas ideia//sugiram outro grafico que abranja toda o conjunto de alunos//alguem edita esse texto
+Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração de dois gráficos que analisam suas performances. O primeiro relaciona a performance acadêmica (eixo y) com a quantidade de estudo (eixo x), já o segundo, relaciona também a performance acadêmica (eixo y) com a quantidade de horas de sono (eixo x). 
 
 {grafico aqui 5}
 
