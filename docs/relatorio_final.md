@@ -103,35 +103,37 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ###    Dicionário de dados
 
-O projeto vai utilizar o dataset "Student_Performance" como sua fonte de dados principal. Este dataset busca examinar os fatores que influênciam a perfomance academica.
+O projeto vai utilizar o dataset "Student Stress Factors""Student_Performance" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-- **Hours Studied** - Atributo que observa o numero total de horas gasta estudando. Tipo: numeros inteiros.
-- **Previous Scores** - Atributo que observa a nota obtida pelos estudantes em exames anteriores. Tipo: numeros inteiros.
-- **Extracurricular Activities** - Atributo que observa se um aluno participa em atividades extracurriculares ou não. Tipo: booleano.
-- **Sleep Hours** - Atributo que observa o tempo médio de sono que um estudante tem por dia. Tipo: numeros inteiros.
-- **Sample Question Papers Practiced** - Atributo que observa o numero de questionarios não obrigatórios realizados. Tipo: numero inteiro.
-- **Performance Index** - atributo que observa a performance média de cada estudante. Tipo: numero real.
 
+| Atributo | Descrição | Tipo de dado |
+| ---------|-----------|--------------|
+| Sleep Quality | Atributo que observa a autoavaliação que o estudante da para seu sono | numero inteiro |
+| suffer headaches| Atributo que observa quantas vezes o aluno teve dor de cabeça na semana | numero inteiro|
+| academic performance | Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica | numero inteiro|
+| study load |Atributo que observa a nota que o estudante da para sua grade curricular | numero inteiro|
+| How many times a week you practice extracurricular activities | Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares | numero inteiro|
+| stress levels | Atributo que observa a nota que o estudante da para seu nível de estress | numero inteiro|
 
-Para complementar e enriquecer a base principal temos o dataset "Student Stress Factors" que tem como objetivo relacionar variaveis que podem causar ou são causa de estress.
+Para complementar e enriquecer a base principal temos o dataset "Student_Performance" que tem como objetivo examinar os fatores que influênciam a perfomance academica. relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-- **Kindly Rate your Sleep Quality** - Atributo que observa a autoavaliação que o estudante da para seu sono. Tipo: numero inteiro.
-- **How many times a week do you suffer headaches** - Atributo que observa quantas vezes o aluno teve dor de cabeça na semana. Tipo: numero inteiro.
-- **How would you rate you academic performance** - Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica. Tipo: numero inteiro.
-- **how would you rate your study load?** - Atributo que observa a nota que o estudante da para sua grade curricular . Tipo: numero inteiro.
-- **How many times a week you practice extracurricular activities** - Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares. Tipo numero inteiro.
-- **How would you rate your stress levels?** - Atributo que observa a nota que o estudante da para seu nível de estress. Tipo: numero inteiro.
+| Atributo | Descrição | Tipo de dado |
+| ---------|-----------|--------------|
+| Hours Studied | Atributo que observa o numero total de horas gasta estudando |  numeros inteiros|
+| Previous Scores | Atributo que observa a nota obtida pelos estudantes em exames anteriores | numeros inteiros |
+| Extracurricular Activities |  Atributo que observa se um aluno participa em atividades extracurriculares ou não | booleano |
+|Sleep Hours | Atributo que observa o tempo médio de sono que um estudante tem por dia | numeros inteiros | 
+| Sample Question Papers Practiced | Atributo que observa o numero de questionarios não obrigatórios realizados | numero inteiro |
+| Performance Index | atributo que observa a performance média de cada estudante | numero real|
 
 ###    Descrição de dados
 
-- **Hours Studied** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto estudando
-- **Previous Scores** - Utilizando uma analise em quartis para observar quantos alunos tiveram uma nota acima da média.
-- **Extracurricular Activities** - Fazendo a moda dos valores contidos no atributo podemos descobrir se há mais alunos que praticam atividades extracurriculares ou não.
-- **Sleep Hours** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto dormindo.
-- **Sample Question Papers Practiced** - Ao realizar o calculo da média deste campo pode-se avaliar qual numero de testes que é realizado pelo alunos
-- **Performance Index** - Realizar um histograma é bem aceito neste campo, poderiamos analizar o numeor de alunos que tiraram valores similares de nota.
+Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar relações já esperadas entre os dados, médias com valores significativos e algumas informações que poderiam ser consideradas estranhas.
+Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
+
+Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
 
 ## Preparação dos dados
 
