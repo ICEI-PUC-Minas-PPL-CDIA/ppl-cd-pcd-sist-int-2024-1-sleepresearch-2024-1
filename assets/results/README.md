@@ -25,9 +25,9 @@ Os gráficos nos permitem enxergar alguns padrões, pois, ao comparar os grupos 
 
 Para analisar a quantidade de alunos em um total que tendem a certo comportamento, foi elaborado um gráfico de pizza que indicasse a composição em um conjunto de 305 alunos. Portanto, o gráfico "Composição dos cinco comportamentos dos estudantes" mostra a tendência maior em um todo. Pode ser útil para explorar os hábitos estudantis mais predominantes e menos predominantes.
 
-{grafico aqui 4.1 e 4.2} 
+{grafico aqui 4} 
 
-Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração de dois gráficos que analisam suas performances. O primeiro relaciona a performance acadêmica (eixo y) com a quantidade de estudo (eixo x), já o segundo, relaciona também a performance acadêmica (eixo y) com a quantidade de horas de sono (eixo x). 
+Para abranger todo o conjunto de estudantes entrevistados, houve a elaboração de um gráfico que analisa suas performances, "Performance relacionada com escala qualitativa de sono e estudo". O gráfico possui duas linhas delimitadas por cores distintas, ambas se relacionando com a performance no eixo y, e cada uma possuindo um respectivo eixo x, sendo eles horas de sono e quantidade de estudo.
 
 {grafico aqui 5}
 
