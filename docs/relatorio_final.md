@@ -55,31 +55,11 @@ Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode a
 
 ###    Objetivo geral
 
-<<<<<<< HEAD
-O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico, tentar comprender a associação entre a má qualidade do sono e a redução do rendimento acâdemico juntamente com  reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e a falta de compromisso nas  realização das tarefas da vida diária e ver a relação do sono dos alunos dos cursos de graduação de certas instituições de ensino com o a finalidade de comprender melhor esse fenomeno.
-
-####    Objetivos específicos
-
-Implementar algoritmos de análise de dados capazes de identificar padrões de sono e desempenho acadêmico entre os estudantes de diferentes cursos de graduação em determinadas instituições de ensino.
-
-Este objetivo específico envolverá as seguintes etapas:
-
-- Coleta e preparação dos dados: Recolher dados sobre o sono dos alunos, incluindo horas de sono, qualidade do sono, padrões de sono irregulares, entre outros, bem como dados sobre o desempenho acadêmico, como notas, frequência, e feedback dos professores.
-
-- Pré-processamento dos dados: Limpar e organizar os dados coletados para garantir a consistência e a integridade, além de remover dados irrelevantes ou duplicados.
-
-- Desenvolvimento de algoritmos de análise de dados: Utilizar técnicas de análise estatística e aprendizado de máquina para identificar correlações entre os padrões de sono dos alunos e seu desempenho acadêmico. Isso pode envolver técnicas como regressão linear, árvores de decisão, redes neurais, entre outras.
-
-- Avaliação e validação dos resultados: Avaliar a eficácia dos algoritmos desenvolvidos em identificar padrões significativos de sono e desempenho acadêmico. Isso incluirá a comparação dos resultados obtidos com estudos prévios e a realização de testes estatísticos para verificar a significância das correlações identificadas.
-
-- Integração dos resultados em um sistema inteligente: Integrar os resultados da análise de dados em um sistema inteligente que seja capaz de fornecer insights úteis sobre a relação entre o sono dos alunos e seu desempenho acadêmico. Isso pode envolver a criação de visualizações interativas e relatórios automatizados para facilitar a interpretação dos resultados pelos usuários.
-=======
 O objetivo geral deste trabalho é desenvolver um sistema inteligente para analisar bases de dados e a partir delas encontrar correlações que se traduzam em informações úteis sobre o sono e o desempenho acadêmico. Em outras palavras, o projeto busca identificar relação na qualidade do sono dos alunos dos cursos de graduação de certas instituições de ensino, com a finalidade de compreender a associação entre noites mal dormidas e a redução da produtividade em sala de aula e nos estudos independentes, além da redução significativa na qualidade de vida.
 
 ####    Objetivos específicos
 
 Implementar algoritmos de análise de dados capazes de identificar padrões de sono e desempenho acadêmico entre os estudantes de diferentes cursos de graduação em determinadas instituições de ensino. (//ETL)
->>>>>>> merge-geral
 
 Este objetivo específico envolverá as seguintes etapas:
 
@@ -124,35 +104,37 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ###    Dicionário de dados
 
-O projeto vai utilizar o dataset "Student_Performance" como sua fonte de dados principal. Este dataset busca examinar os fatores que influênciam a perfomance academica.
+O projeto vai utilizar o dataset "Student Stress Factors""Student_Performance" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-- **Hours Studied** - Atributo que observa o numero total de horas gasta estudando. Tipo: numeros inteiros.
-- **Previous Scores** - Atributo que observa a nota obtida pelos estudantes em exames anteriores. Tipo: numeros inteiros.
-- **Extracurricular Activities** - Atributo que observa se um aluno participa em atividades extracurriculares ou não. Tipo: booleano.
-- **Sleep Hours** - Atributo que observa o tempo médio de sono que um estudante tem por dia. Tipo: numeros inteiros.
-- **Sample Question Papers Practiced** - Atributo que observa o numero de questionarios não obrigatórios realizados. Tipo: numero inteiro.
-- **Performance Index** - atributo que observa a performance média de cada estudante. Tipo: numero real.
 
+| Atributo | Descrição | Tipo de dado |
+| ---------|-----------|--------------|
+| Sleep Quality | Atributo que observa a autoavaliação que o estudante da para seu sono | numero inteiro |
+| suffer headaches| Atributo que observa quantas vezes o aluno teve dor de cabeça na semana | numero inteiro|
+| academic performance | Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica | numero inteiro|
+| study load |Atributo que observa a nota que o estudante da para sua grade curricular | numero inteiro|
+| How many times a week you practice extracurricular activities | Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares | numero inteiro|
+| stress levels | Atributo que observa a nota que o estudante da para seu nível de estress | numero inteiro|
 
-Para complementar e enriquecer a base principal temos o dataset "Student Stress Factors" que tem como objetivo relacionar variaveis que podem causar ou são causa de estress.
+Para complementar e enriquecer a base principal temos o dataset "Student_Performance" que tem como objetivo examinar os fatores que influênciam a perfomance academica. relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-- **Kindly Rate your Sleep Quality** - Atributo que observa a autoavaliação que o estudante da para seu sono. Tipo: numero inteiro.
-- **How many times a week do you suffer headaches** - Atributo que observa quantas vezes o aluno teve dor de cabeça na semana. Tipo: numero inteiro.
-- **How would you rate you academic performance** - Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica. Tipo: numero inteiro.
-- **how would you rate your study load?** - Atributo que observa a nota que o estudante da para sua grade curricular . Tipo: numero inteiro.
-- **How many times a week you practice extracurricular activities** - Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares. Tipo numero inteiro.
-- **How would you rate your stress levels?** - Atributo que observa a nota que o estudante da para seu nível de estress. Tipo: numero inteiro.
+| Atributo | Descrição | Tipo de dado |
+| ---------|-----------|--------------|
+| Hours Studied | Atributo que observa o numero total de horas gasta estudando |  numeros inteiros|
+| Previous Scores | Atributo que observa a nota obtida pelos estudantes em exames anteriores | numeros inteiros |
+| Extracurricular Activities |  Atributo que observa se um aluno participa em atividades extracurriculares ou não | booleano |
+|Sleep Hours | Atributo que observa o tempo médio de sono que um estudante tem por dia | numeros inteiros | 
+| Sample Question Papers Practiced | Atributo que observa o numero de questionarios não obrigatórios realizados | numero inteiro |
+| Performance Index | atributo que observa a performance média de cada estudante | numero real|
 
 ###    Descrição de dados
 
-- **Hours Studied** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto estudando
-- **Previous Scores** - Utilizando uma analise em quartis para observar quantos alunos tiveram uma nota acima da média.
-- **Extracurricular Activities** - Fazendo a moda dos valores contidos no atributo podemos descobrir se há mais alunos que praticam atividades extracurriculares ou não.
-- **Sleep Hours** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto dormindo.
-- **Sample Question Papers Practiced** - Ao realizar o calculo da média deste campo pode-se avaliar qual numero de testes que é realizado pelo alunos
-- **Performance Index** - Realizar um histograma é bem aceito neste campo, poderiamos analizar o numeor de alunos que tiraram valores similares de nota.
+Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar relações já esperadas entre os dados, médias com valores significativos e algumas informações que poderiam ser consideradas estranhas.
+Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
+
+Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
 
 ## Preparação dos dados
 
