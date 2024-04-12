@@ -38,7 +38,8 @@ Um exemplo, foi uma pesquisa feita na Universidade Federal de Pelotas (UFPel) po
 Portanto, visualizando estes números pode-se notar um alto percentual de estudantes que possuem problemas noturnos tanto nos dias letivos quanto nos finais de semana.
 
 Outra pesquisa relevante feita por Tozer (2018) em que ele analisa a média de sono da população de diversos países, chegando a conclusão que países mais ricos possuem um tempo de sono maior.
-Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte mais cedo em 13%. Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
+Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte mais ceda em 13%. 
+Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. 
 Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. 
@@ -50,7 +51,7 @@ Tendo em vista o que foi apontado anteriormente, é de suma importância que sej
 
 Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>[2]</sup>. 
 
-Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode alterar a economia de um país. A exemplo disso, temos países com Estados Unidos, Reino Unido, Alemanha, Japão e Canadá que possuem uma perda consideravel no PIB anual, devido a falta de sono de seus trabalhadores. Essa perda pode ser causada de diversas formas, como o fato de que trabalhadores cansados são menos eficientes, tem mais chace de faltar e são mais sucetiveis a doenças. Outra causa é que a falta de sono durante o periodo academico afeta o desenvolvimento de habilidades, refletindo eventualmente no nível educacional do país e no mercado de trabalho<sup>[5]</sup>.
+Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode alterar a economia de um país. A exemplo disso, temos países com Estados Unidos, Reino Unido, Alemanha, Japão e Canadá que possuem uma perda consideravel no PIB anual, devido a falta de sono de seus trabalhadores. Essa perda pode ser causada de diversas formas, como o fato de que trabalhadores cansados são menos eficientes, tem mais chace de faltar e são mais sucetiveis a doenças. Outra causa é que a falta de sono durante o periodo academico afeta o desenvolvimento de habildiades, refletindo eventualmente no nível educacional do país e no mercado de trabalho<sup>[5]</sup>.
 
 ###    Objetivo geral
 
@@ -84,12 +85,12 @@ O projeto tem como público alvo universitários (de qualquer modalidade de curs
 
 ### Diagrama de persona:
 
-**Nome:**	Lucas Martins  
-**Gênero:**	Masculino  
-**Idade:** 23  
-**Cidade:**	Belo Horizonte
+**Nome	:**	Lucas Martins  
+**Gênero	:**	Masculino  
+**Idade	:** 23  
+**Cidade	:**	Belo Horizonte
 
-**Bio.:** 
+**Bio:** 
 Lucas é formado em ciência da computação e está atualmente fazendo uma pós em segurança da informação, trabalha como desenvolvedor de sistemas e mora sozinho no centro da cidade. 
 
 **Objetivos:**
@@ -103,44 +104,47 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ###    Dicionário de dados
 
-O projeto vai utilizar o dataset "Student Stress Factors""Student_Performance" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
+O projeto vai utilizar o dataset "Student_Performance" como sua fonte de dados principal. Este dataset busca examinar os fatores que influênciam a perfomance academica.
 
 Nele temos os seguintes atributos:
+- **Hours Studied** - Atributo que observa o numero total de horas gasta estudando. Tipo: numeros inteiros.
+- **Previous Scores** - Atributo que observa a nota obtida pelos estudantes em exames anteriores. Tipo: numeros inteiros.
+- **Extracurricular Activities** - Atributo que observa se um aluno participa em atividades extracurriculares ou não. Tipo: booleano.
+- **Sleep Hours** - Atributo que observa o tempo médio de sono que um estudante tem por dia. Tipo: numeros inteiros.
+- **Sample Question Papers Practiced** - Atributo que observa o numero de questionarios não obrigatórios realizados. Tipo: numero inteiro.
+- **Performance Index** - atributo que observa a performance média de cada estudante. Tipo: numero real.
 
-| Atributo | Descrição | Tipo de dado |
-| ---------|-----------|--------------|
-| Sleep Quality | Atributo que observa a autoavaliação que o estudante da para seu sono | numero inteiro |
-| suffer headaches| Atributo que observa quantas vezes o aluno teve dor de cabeça na semana | numero inteiro|
-| academic performance | Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica | numero inteiro|
-| study load |Atributo que observa a nota que o estudante da para sua grade curricular | numero inteiro|
-| How many times a week you practice extracurricular activities | Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares | numero inteiro|
-| stress levels | Atributo que observa a nota que o estudante da para seu nível de estress | numero inteiro|
 
-Para complementar e enriquecer a base principal temos o dataset "Student_Performance" que tem como objetivo examinar os fatores que influênciam a perfomance academica. relacionar variaveis que podem causar ou são causa de estress.
+Para complementar e enriquecer a base principal temos o dataset "Student Stress Factors" que tem como objetivo relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-| Atributo | Descrição | Tipo de dado |
-| ---------|-----------|--------------|
-| Hours Studied | Atributo que observa o numero total de horas gasta estudando |  numeros inteiros|
-| Previous Scores | Atributo que observa a nota obtida pelos estudantes em exames anteriores | numeros inteiros |
-| Extracurricular Activities |  Atributo que observa se um aluno participa em atividades extracurriculares ou não | booleano |
-|Sleep Hours | Atributo que observa o tempo médio de sono que um estudante tem por dia | numeros inteiros | 
-| Sample Question Papers Practiced | Atributo que observa o numero de questionarios não obrigatórios realizados | numero inteiro |
-| Performance Index | atributo que observa a performance média de cada estudante | numero real|
+- **Kindly Rate your Sleep Quality** - Atributo que observa a autoavaliação que o estudante da para seu sono. Tipo: numero inteiro.
+- **How many times a week do you suffer headaches** - Atributo que observa quantas vezes o aluno teve dor de cabeça na semana. Tipo: numero inteiro.
+- **How would you rate you academic performance** - Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica. Tipo: numero inteiro.
+- **how would you rate your study load?** - Atributo que observa a nota que o estudante da para sua grade curricular . Tipo: numero inteiro.
+- **How many times a week you practice extracurricular activities** - Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares. Tipo numero inteiro.
+- **How would you rate your stress levels?** - Atributo que observa a nota que o estudante da para seu nível de estress. Tipo: numero inteiro.
 
 ###    Descrição de dados
 
-Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar relações já esperadas entre os dados, médias com valores significativos e algumas informações que poderiam ser consideradas estranhas.
-
-Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
-
-Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
+- **Hours Studied** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto estudando
+- **Previous Scores** - Utilizando uma analise em quartis para observar quantos alunos tiveram uma nota acima da média.
+- **Extracurricular Activities** - Fazendo a moda dos valores contidos no atributo podemos descobrir se há mais alunos que praticam atividades extracurriculares ou não.
+- **Sleep Hours** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto dormindo.
+- **Sample Question Papers Practiced** - Ao realizar o calculo da média deste campo pode-se avaliar qual numero de testes que é realizado pelo alunos
+- **Performance Index** - Realizar um histograma é bem aceito neste campo, poderiamos analizar o numeor de alunos que tiraram valores similares de nota.
 
 ## Preparação dos dados
 
 A preparação dos dados consiste dos seguintes passos:
 
 > - Seleção dos atributos
+
+Os seguintes atributos das respectivas bases são indispensáveis ao se tratar de um projeto que visa a análise do relacionamento entre performance escolar e qualidade de sono, pois ter em mãos dados quantitativos que englobam esses dois aspectos é a base da pesquisa. 
+- Base “Student stress factor”: Sleep Quality, Academic performance, Study load.
+- Base “Student performance”: Hours Studied, Sleep Hours, Performance Index.
+Os demais atributos podem ser dispensados, pois desviam do foco do projeto.
+
 > - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
 > - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
 > - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
@@ -153,7 +157,7 @@ Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore d
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
 Descreva os parâmetros utilizados. 
-Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
+\Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
 com o fluxo de processamento.
 
 ### Modelo 2: Algoritmo
