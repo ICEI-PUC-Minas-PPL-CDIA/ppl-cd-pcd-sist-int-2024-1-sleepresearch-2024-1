@@ -142,6 +142,21 @@ A preparação dos dados consiste dos seguintes passos:
 > - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
 > - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
 
+# Seleção dos atributos
+- tabela "Student_Performance.csv":
+	**Hours Studied** - essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações podem ser realizadas;
+	**Previous Scores** - Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores;
+	**Extracurricular Activities** - num primeiro momento acredito que complicaria demais a análise se essa coluna for usada;
+	**Sleep Hours** A coluna mais importante, dispensa comentário prolongado;
+	**Sample Question Papers Practiced** - em um outro momento, talvez. Essa coluna tiraria muito o foco pois traria variáveis qualitativas e complexas;
+	**Performance Index** - Caso essa coluna seja usada, acredito que a **Previous Scores** seja desnecessária e vice-versa.
+- tabela "Student Stress Factors.csv":
+	**Sleep Quality** - Atributo importante, visão do estudante sobre sua qualidade de sono. Pode ser usada para uma correlação com os atributos **Sleep Hours** e **Previous Scores** da tabela "Student_Performance.csv";
+	**academic performance** - Pode ser usado num gráfico de comparação após as correlações serem feitas;
+	- Julgo desnecessários os demais atributos, são redundantes ou não acrescentam informações de maneira significativa.
+
+
+
 ## Indução de modelos
 
 ### Modelo 1: Algoritmo
