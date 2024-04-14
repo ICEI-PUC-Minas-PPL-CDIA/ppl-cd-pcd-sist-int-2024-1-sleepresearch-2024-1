@@ -136,46 +136,27 @@ Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Mina
 
 ## Preparação dos dados
 
-A preparação dos dados consiste dos seguintes passos:
-
-> - Seleção dos atributos
-> - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
-> - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
-> - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
-
 ### Seleção dos atributos
 
-Sara: 
+Os seguintes atributos das respectivas bases são indispensáveis ao se tratar de um projeto que visa a análise do relacionamento entre performance escolar e qualidade de sono, pois ter em mãos dados quantitativos e qualitativos que englobam esses dois aspectos é a base da pesquisa. 
 
-Os seguintes atributos das respectivas bases são indispensáveis ao se tratar de um projeto que visa a análise do relacionamento entre performance escolar e qualidade de sono, pois ter em mãos dados quantitativos que englobam esses dois aspectos é a base da pesquisa. 
-- Base “Student stress factor”: Sleep Quality, Academic performance, Study load.
-- Base “Student performance”: Hours Studied, Sleep Hours, Performance Index.
-Os demais atributos podem ser dispensados, pois desviam do foco do projeto.
+- Tabela "Student Stress Factors.csv" (Principal):
 
-Rhudson:
+	`Sleep Quality` - Um dos atributos principais, pois nele temos a autoavaliação do estudante sobre sua qualidade de sono. 
 
-- tabela "Student_Performance.csv":
+	`academic performance` - Por se tratar da variavel que nos mostra a performance academica de um aluno é interessante mantermos ela;
 
-	**Hours Studied** - essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações podem ser realizadas;
+- Tabela "Student_Performance.csv" (Enriquecimento):
 
-	**Previous Scores** - Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores;
+	`Hours Studied` - essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações com `academic performance`, `Performance Index` podem ser realizadas;
 
-	**Extracurricular Activities** - num primeiro momento acredito que complicaria demais a análise se essa coluna for usada;
+	`Sleep Hours` - A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior;
 
-	**Sleep Hours** A coluna mais importante, dispensa comentário prolongado;
-	**Sample Question Papers Practiced** - em um outro momento, talvez. Essa coluna tiraria muito o foco pois traria variáveis qualitativas e complexas;
+	`Previous Scores` - Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores;
 
-	**Performance Index** - Caso essa coluna seja usada, acredito que a **Previous Scores** seja desnecessária e vice-versa.
+	`Performance Index` - Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance`
 
-- tabela "Student Stress Factors.csv":
-
-	**Sleep Quality** - Atributo importante, visão do estudante sobre sua qualidade de sono. Pode ser usada para uma correlação com os atributos **Sleep Hours** e **Previous Scores** da tabela "Student_Performance.csv";
-
-	**academic performance** - Pode ser usado num gráfico de comparação após as correlações serem feitas;
-	
-	- Julgo desnecessários os demais atributos, são redundantes ou não acrescentam informações de maneira significativa.
-
-
+Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
 
 ## Indução de modelos
 
