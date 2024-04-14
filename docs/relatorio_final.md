@@ -101,64 +101,78 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ## Análise exploratórida dos dados
 
-###    Dicionário de dados
-
-O projeto vai utilizar o dataset "Student_Performance" como sua fonte de dados principal. Este dataset busca examinar os fatores que influênciam a perfomance academica.
+O projeto vai utilizar o dataset "Student Stress Factors" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-- **Hours Studied** - Atributo que observa o numero total de horas gasta estudando. Tipo: numeros inteiros.
-- **Previous Scores** - Atributo que observa a nota obtida pelos estudantes em exames anteriores. Tipo: numeros inteiros.
-- **Extracurricular Activities** - Atributo que observa se um aluno participa em atividades extracurriculares ou não. Tipo: booleano.
-- **Sleep Hours** - Atributo que observa o tempo médio de sono que um estudante tem por dia. Tipo: numeros inteiros.
-- **Sample Question Papers Practiced** - Atributo que observa o numero de questionarios não obrigatórios realizados. Tipo: numero inteiro.
-- **Performance Index** - atributo que observa a performance média de cada estudante. Tipo: numero real.
 
+| Atributo | Descrição | Tipo de dado |
+| ---------|-----------|--------------|
+| Sleep Quality | Atributo que observa a autoavaliação que o estudante da para seu sono | numero inteiro |
+| suffer headaches| Atributo que observa quantas vezes o aluno teve dor de cabeça na semana | numero inteiro|
+| academic performance | Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica | numero inteiro|
+| study load |Atributo que observa a nota que o estudante da para sua grade curricular | numero inteiro|
+| How many times a week you practice extracurricular activities | Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares | numero inteiro|
+| stress levels | Atributo que observa a nota que o estudante da para seu nível de estress | numero inteiro|
 
-Para complementar e enriquecer a base principal temos o dataset "Student Stress Factors" que tem como objetivo relacionar variaveis que podem causar ou são causa de estress.
+Para complementar e enriquecer a base principal temos o dataset "Student_Performance" que tem como objetivo examinar os fatores que influênciam a perfomance academica. relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
-- **Kindly Rate your Sleep Quality** - Atributo que observa a autoavaliação que o estudante da para seu sono. Tipo: numero inteiro.
-- **How many times a week do you suffer headaches** - Atributo que observa quantas vezes o aluno teve dor de cabeça na semana. Tipo: numero inteiro.
-- **How would you rate you academic performance** - Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica. Tipo: numero inteiro.
-- **how would you rate your study load?** - Atributo que observa a nota que o estudante da para sua grade curricular . Tipo: numero inteiro.
-- **How many times a week you practice extracurricular activities** - Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares. Tipo numero inteiro.
-- **How would you rate your stress levels?** - Atributo que observa a nota que o estudante da para seu nível de estress. Tipo: numero inteiro.
+| Atributo | Descrição | Tipo de dado |
+| ---------|-----------|--------------|
+| Hours Studied | Atributo que observa o numero total de horas gasta estudando |  numeros inteiros|
+| Previous Scores | Atributo que observa a nota obtida pelos estudantes em exames anteriores | numeros inteiros |
+| Extracurricular Activities |  Atributo que observa se um aluno participa em atividades extracurriculares ou não | booleano |
+|Sleep Hours | Atributo que observa o tempo médio de sono que um estudante tem por dia | numeros inteiros | 
+| Sample Question Papers Practiced | Atributo que observa o numero de questionarios não obrigatórios realizados | numero inteiro |
+| Performance Index | atributo que observa a performance média de cada estudante | numero real|
 
 ###    Descrição de dados
 
-- **Hours Studied** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto estudando
-- **Previous Scores** - Utilizando uma analise em quartis para observar quantos alunos tiveram uma nota acima da média.
-- **Extracurricular Activities** - Fazendo a moda dos valores contidos no atributo podemos descobrir se há mais alunos que praticam atividades extracurriculares ou não.
-- **Sleep Hours** - Pode-se utilizar nesse dado uma analise da média ponderada do tempo gasto dormindo.
-- **Sample Question Papers Practiced** - Ao realizar o calculo da média deste campo pode-se avaliar qual numero de testes que é realizado pelo alunos
-- **Performance Index** - Realizar um histograma é bem aceito neste campo, poderiamos analizar o numeor de alunos que tiraram valores similares de nota.
+Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar relações já esperadas entre os dados, médias com valores significativos e algumas informações que poderiam ser consideradas estranhas.
+
+Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
+
+Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
 
 ## Preparação dos dados
 
 A preparação dos dados consiste dos seguintes passos:
 
 > - Seleção dos atributos
+> - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
+> - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
+> - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
+
+### Seleção dos atributos
+
+Sara: 
 
 Os seguintes atributos das respectivas bases são indispensáveis ao se tratar de um projeto que visa a análise do relacionamento entre performance escolar e qualidade de sono, pois ter em mãos dados quantitativos que englobam esses dois aspectos é a base da pesquisa. 
 - Base “Student stress factor”: Sleep Quality, Academic performance, Study load.
 - Base “Student performance”: Hours Studied, Sleep Hours, Performance Index.
 Os demais atributos podem ser dispensados, pois desviam do foco do projeto.
 
-> - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
-> - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
-> - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
+Rhudson:
 
-# Seleção dos atributos
 - tabela "Student_Performance.csv":
+
 	**Hours Studied** - essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações podem ser realizadas;
+
 	**Previous Scores** - Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores;
+
 	**Extracurricular Activities** - num primeiro momento acredito que complicaria demais a análise se essa coluna for usada;
+
 	**Sleep Hours** A coluna mais importante, dispensa comentário prolongado;
 	**Sample Question Papers Practiced** - em um outro momento, talvez. Essa coluna tiraria muito o foco pois traria variáveis qualitativas e complexas;
+
 	**Performance Index** - Caso essa coluna seja usada, acredito que a **Previous Scores** seja desnecessária e vice-versa.
+
 - tabela "Student Stress Factors.csv":
+
 	**Sleep Quality** - Atributo importante, visão do estudante sobre sua qualidade de sono. Pode ser usada para uma correlação com os atributos **Sleep Hours** e **Previous Scores** da tabela "Student_Performance.csv";
+
 	**academic performance** - Pode ser usado num gráfico de comparação após as correlações serem feitas;
+	
 	- Julgo desnecessários os demais atributos, são redundantes ou não acrescentam informações de maneira significativa.
 
 
