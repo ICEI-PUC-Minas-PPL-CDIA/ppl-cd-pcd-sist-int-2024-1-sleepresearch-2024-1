@@ -142,19 +142,23 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 
 - Tabela "Student Stress Factors.csv" (Principal):
 
-	`Sleep Quality` - Um dos atributos principais, pois nele temos a autoavaliação do estudante sobre sua qualidade de sono. 
-
-	`academic performance` - Por se tratar da variavel que nos mostra a performance academica de um aluno é interessante mantermos ela;
+	| Atributos | Motivo |
+	| --------- | ------ |
+	| Sleep Quality | Um dos atributos principais, pois nele temos a autoavaliação do estudante sobre sua qualidade de sono |
+	| Suffer headaches| Podem-se procurar relações entre as dores de cabeça e disturbios do sono no geral |
+	| Academic performance | Por se tratar da variavel que nos mostra a performance academica de um aluno é interessante mantermos ela |
+	| Study load | Seria possível observar relações entre a carga horaria da instituição e a performance |
+	| Practice extracurricular activities | Alunos que fazem atividades extra curriculares podem ter performance academica melhor que os demais |
+	| Stress levels | É possivel relacionar o nivel de stress dos alunos com o tempo de sono, carga acadêmica e atividades extracurriculares | 
 
 - Tabela "Student_Performance.csv" (Enriquecimento):
 
-	`Hours Studied` - essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações com `academic performance`, `Performance Index` podem ser realizadas;
-
-	`Sleep Hours` - A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior;
-
-	`Previous Scores` - Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores;
-
-	`Performance Index` - Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance`
+	| Atributos | Motivo |
+	| --------- | ------ |
+	| Hours Studied |  essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações com `academic performance`, `Performance Index` podem ser realizadas |
+	| Sleep Hours |  A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior | 
+	| Previous Scores | Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores |
+	| Performance Index | Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance` |
 
 Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
 
