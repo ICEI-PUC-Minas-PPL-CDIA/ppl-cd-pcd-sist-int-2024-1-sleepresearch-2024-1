@@ -112,8 +112,15 @@ A preparação dos dados consiste dos seguintes passos:
 > - Seleção dos atributos
 > - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
 > - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
+
+
 > - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
 
+  Primeiramente, é importante ressaltar que é incondizente unir os atributos das bases que foram escolhidas como principal e secundária, uma vez que elas, embora tratem de uma mesma dimensão, têm diferentes abordagens - uma mostra o valor bruto, além de ser sintética, enquanto a outra é uma autoavaliação com valores reais. Por isso, foi escolhido fazer uma relação por meio de voto, em que há uma mesma pergunta para ambas as bases. No entanto, os métodos para chegar em uma resposta de "Sim" ou "Não" seriam pensados em casos isolados para ambas as bases. Também, foi pensado em demonstrar a intensidade para cada uma das perguntas feitas em relação às bases, isso seria feito por meio da porcentagem de casos que apontam para o "Sim" ou o "Não" em cada uma das bases pelos métodos implantados em cada uma para se chegar no resultado.
+
+  Na base principal "Student_stress_factors", há seis atributos, que são referentes à qualidade do sono, à dor de cabeça, à performance acadêmica, à carga horária de estudo, às atividades extracurriculares e ao nível de estresse. Estes são atributos que informam a autoavaliação de cada aluno de 1 a 5, em que 1 se traduz em um índice baixo, e 5 a um índice alto. Foi decidido não fazer o descarte ou alteração de nenhum desses atributos, uma vez que todos estão limpos e apresentam relevância para o problema. Já na base secundária "Student_performance", há os seguintes atributos: "Hours studied", "Previous score", "Extracurricular activities", "Sleep hours", "Sample Question Papers Practiced" e "Performance index". Todos estes são úteis para se chegar em informações, mas há algumas possíveis alterações que podem ser feitas, como formar faixas que mostrem categorias de quem teve, por exemplo, uma boa qualidade de sono, média qualidade de sono ou qualidade de sono ruim. Isso poderia ser feito com os demais atributos, adaptando-se para cada caso. O que pode ser feito em ambas as bases é agregar atributos úteis relativos à operações aritméticas de cada um dos atributos.
+
+  
 
 ## Indução de modelos
 
