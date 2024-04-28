@@ -158,6 +158,12 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 
 Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
 
+## Tratamento dos valores faltantes ou omissos 
+Student stress factors: 
+
+Student performance:
+A tabela secundária “Student performance” não precisa passar por tratamento de dados omissos, já que não os possui por se tratar de uma base de dados sintética, ou seja, foi gerada artificialmente e projetada originalmente para que todos os atributos sejam devidamente preenchidos pelo algoritmo.
+
 ## Indução de modelos
 
 ### Modelo 1: Algoritmo
