@@ -27,7 +27,7 @@ _**Resumo** Este estudo investiga a correlação entre a qualidade do sono e o d
 
 ## Introdução
 
-Mesmo com todos os avanços científicos, técnicos e tecnológicos tidos na contemporaneidade, vários desafios mundiais estão em pauta, exigindo um trabalho colaborativo e global para serem minimizados. Sendo assim, a Organização das Nações Unidas (ONU) definiu, em 2015, 17 objetivos globais<sup>[1]</sup>. Dentre estes, tem um que objetiva a saúde e bem-estar e, embora não haja uma meta dentro dessa área que fale especificamente sobre o sono, estudos mostram que há uma relação muito forte entre esse hábito e a saúde humana. Entrando mais a fundo, em diversas estatísticas observa-se um comportamento esperado quando se analisa o desempenho em certas atividades - físicas e mentais - e os maus hábitos de dormir<sup>[2]</sup>. Assim, este estudo propõe investigar as possíveis associações entre desempenho acadêmico e padrões de sono, visando obter "insights" que possam ser transformados em conhecimento útil, baseado em dados, para ressaltar a importância de bons hábitos para extrair os benefícios da educação.
+Mesmo com todos os avanços científicos, técnicos e tecnológicos tidos na contemporaneidade, vários desafios mundiais estão em pauta, exigindo um trabalho colaborativo e global para serem minimizados. Sendo assim, a Organização das Nações Unidas (ONU) definiu, em 2015, 17 objetivos globais<sup>[1]</sup>. Dentre estes, tem um que objetiva a saúde e bem-estar e, embora não haja uma meta dentro dessa área que fale especificamente sobre o sono, estudos mostram que há uma relação muito forte entre esta necessidade fisiológica e a saúde humana. Entrando mais a fundo, em diversas estatísticas observa-se um comportamento esperado quando se analisa o desempenho em certas atividades - físicas e mentais - e os maus hábitos de dormir<sup>[2]</sup>. Assim, este estudo propõe investigar as possíveis associações entre desempenho acadêmico e padrões de sono, visando obter "insights" que possam ser transformados em conhecimento útil, baseado em dados, para ressaltar a importância de bons hábitos para extrair os benefícios da educação.
 
 Em outras palavras, a investigação visa abranger tanto uma problemática do bem-estar e da saúde dos indivíduos quanto a interferência de um mau sono nas atividades acadêmicas. Pesquisas mostram que sociedades com melhor descanso tendem a ser mais prósperas<sup>[4]</sup>. Isso levanta a questão de se o sono realmente desempenha um papel tão significativo no desenvolvimento humano. Com isso, pretende-se alcançar estudantes universitários, já que são mais propícios a sofrerem com o problema devido a diversos fatores. Adicionalmente, há o intuito de investigar possíveis hábitos, como o de não praticar atividades físicas, com noites mal dormidas ou distúrbios de insônia<sup>[2]</sup>. E tudo isso para que seja possível o levante do problema e/ou a análise de possíveis intervenções. Assim, utilizando-se a metodologia "Knowledge Discovery in Database" (KDD) e seguindo as suas etapas, espera-se obter produtos pertinentes.
 
@@ -35,10 +35,10 @@ Em outras palavras, a investigação visa abranger tanto uma problemática do be
 
 Esta questão do sono já é abordada em diversas pesquisas, tais quais indicam números alarmantes em relação à qualidade dos hábitos noturnos. 
 Um exemplo, foi uma pesquisa feita na Universidade Federal de Pelotas (UFPel) por Carone et al. (2020), segundo ela: "Dos 1.865 estudantes, 32% apresentaram sono insuficiente nos dias de aula, 8,2% sono insuficiente nos finais de semana, 18,6% latência longa nos dias de aula, 17,2% latência longa nos finais de semana, 30% baixa qualidade autopercebida, 12,7% despertares noturnos e 32,2% sonolência diurna". 
-Portanto, visualizando estes números pode-se notar um alto percentual de estudantes que possuem problemas noturnos tanto nos dias letivos quanto nos finais de semana.
+Portanto, visualizando estes números pode-se notar um alto percentual de estudantes que possuem problemas noturnos, tanto nos dias letivos quanto nos finais de semana.
 
-Outra pesquisa relevante feita por Tozer (2018) em que ele analisa a média de sono da população de diversos países, chegando a conclusão que países mais ricos possuem um tempo de sono maior.
-Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte mais cedo em 13%. Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
+Outra pesquisa relevante feita por Tozer (2018) em que ele analisa a média de sono da população de diversos países, chegando a conclusão que países mais desenvolvidos possuem um tempo de sono maior.
+Ademais, em sua pesquisa ele também analisa alguns fatos sobre a deprivação do sono, como por exemplo o fato de que uma pessoa que fique 20 horas consecutivas acordada tem o mesmo raciocínio e tempo de reação que alguem que bebeu 1 taça de vinho ou o fato de que pessoas que consistentemente dormem 6 horas por dia aumenta a chance de uma morte precoce em 13%. Essa deprivação do sono também pode extender seus impactos para um país inteiro como no caso do Japão, que 3% do seu produto interno bruto anual é afetado pela exaustão. 
 
 Haja vista essas pesquisas, que ressaltam uma problemática contemporânea associada ao sono, o trabalho visa tratar tal questão na vida dos indivíduos, mostrando seus impactos e apontando relações. 
 Os bons hábitos, como por exemplo a aderência de uma higiene do sono - uma série de comportamentos que equilibram o ciclo circadiano - estão atrelados a uma boa saúde, disposição, bem-estar, raciocínio, memória e desempenho esportivo, por exemplo. 
@@ -46,11 +46,11 @@ Sabendo disso, torna-se necessário abordar, mais especificamente, a relação e
 
 ###    Problema
 
-Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção; diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória); aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos<sup>[2]</sup>. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acâdemico.
+Tendo em vista o que foi apontado anteriormente, é de suma importância que seja analisado o sono dos alunos dos cursos de graduação de certas instituições de ensino. Portanto, devemos analisar os graduandos que estão tendo problemas com o descanso e como isso impacta a rotina e desempenho escolar. Esses impactos podem ocorrer de diversas formas, como: défict de atenção, diminuição da capacidade cognitiva (raciocínio mais lento e diminuição da memória), aumento da sonolência diurna, que levaria a perda de atenção nas aulas para o caso de estudantes dos cursos diurnos<sup>[2]</sup>. Sendo assim, podemos inferir que há uma associação entre a má qualidade do sono e a redução do rendimento acadêmico.
 
-Se for levado em consideração que é na faculdade que a maioria dos alunos passa por uma mudança de rotina repentina, com cargas horárias diferentes e ainda mais atividades academicas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão da saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e rodoviários, e poderá afetar a realização das tarefas da vida diária<sup>[2]</sup>. 
+Se for levado em consideração que é na graduação que a maioria dos alunos passa por uma mudança de rotina repentina, com sobrecarga de atividades acadêmicas e grade de horários de aulas com longas janelas, e que é nela onde se desenvolve os principais hábitos praticados durante toda a vida adulta. Dessa forma, problemas como a sonolência diurna excessiva é uma importante questão de saúde pública e clínica, pois ela pode levar a reduções significativas na qualidade de vida, um aumento do risco de acidentes de trabalho e de trânsito, e poderá afetar a realização das tarefas da vida diária<sup>[2]</sup>. 
 
-Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode alterar a economia de um país. A exemplo disso, temos países com Estados Unidos, Reino Unido, Alemanha, Japão e Canadá que possuem uma perda consideravel no PIB anual, devido a falta de sono de seus trabalhadores. Essa perda pode ser causada de diversas formas, como o fato de que trabalhadores cansados são menos eficientes, tem mais chace de faltar e são mais sucetiveis a doenças. Outra causa é que a falta de sono durante o periodo academico afeta o desenvolvimento de habilidades, refletindo eventualmente no nível educacional do país e no mercado de trabalho<sup>[5]</sup>.
+Ademais, o sono não afeta somento o dia a dia de uma pessoa, mas também pode alterar a economia de um país. A exemplo disso, temos países como Estados Unidos, Reino Unido, Alemanha, Japão e Canadá que possuem uma perda considerável no PIB anual, devido a falta de sono de seus trabalhadores. Essa perda pode ser causada de diversas formas, como o fato de que trabalhadores cansados são menos eficientes, têm mais chaces de faltar e são mais sucetíveis a doenças. Outra causa é que a falta de sono durante o período acadêmico afeta o desenvolvimento de habilidades, refletindo eventualmente no nível educacional do país e no mercado de trabalho<sup>[5]</sup>.
 
 ###    Objetivo geral
 
@@ -74,7 +74,7 @@ Este objetivo específico envolverá as seguintes etapas:
 
 ###    Justificativas
 
-O que motivou a escolha dessa temática foi, após leitura de estudos e também observações cotidianas, a consciência de que o sono é uma necessidade básica do ser humano e que, muitas vezes, é negligenciado. Um ciclo circadiano equilibrado é responsável por inúmeros benefícios e tem influencia direta nas funções metabólcias humanas, e isso é apontado em diversas pesquisas científicas. Entretanto, inúmeros fatores fazem com que os indivíduos não consigam sustentar uma boa higiene do sono, impactando suas atividades diárias. O trabalho enfoca na perspectiva de sono no ramo acadêmico devido ao reconhecimento de padrões de baixo desempenho dos alunos com a má qualidade de descanso, e como isso pode afetar a educação do país e a vida profissional.
+O que motivou a escolha dessa temática foi, após leitura de estudos e também observações cotidianas, a consciência de que o sono é uma necessidade básica do ser humano e que, muitas vezes, é negligenciado. Um ciclo circadiano equilibrado é responsável por inúmeros benefícios e tem influência direta nas funções metabólcias humanas, e isso é apontado em diversas pesquisas científicas. Entretanto, inúmeros fatores fazem com que os indivíduos não consigam sustentar uma boa higiene do sono, impactando suas atividades diárias. O trabalho enfoca na perspectiva de sono no ramo acadêmico devido ao reconhecimento de padrões de baixo desempenho dos alunos com a má qualidade de descanso, e como isso pode afetar a educação do país e a vida profissional.
 
 Considerando a relevância do sono para a saúde e o desempenho humano, sustenta-se o uso dos processos de KDD (Knowledge Discovery in Databases) e ETL (Extract, Transform, Load) como metodologias para a obtenção de conhecimento, permitindo a extração de dados e a geração de insights. Dessa forma, ao trabalhar com bases de dados selecionadas que se relacionam tanto diretamente quanto indiretamente com a temática do sono, é possível transformá-las em estatísticas relevantes. Com isso, as instituições de ensino poderão captar tais resultados, utilizando o conhecimento gerado por dados para conscientizar sobre a importância do sono na busca por melhores resultados educacionais.    
 
@@ -84,12 +84,12 @@ O projeto tem como público alvo universitários (de qualquer modalidade de curs
 
 ### Diagrama de persona:
 
-**Nome:**	Lucas Martins  
-**Gênero:**	Masculino  
-**Idade:** 23  
-**Cidade:**	Belo Horizonte
+**Nome	:**	Lucas Martins  
+**Gênero	:**	Masculino  
+**Idade	:** 23  
+**Cidade	:**	Belo Horizonte
 
-**Bio.:** 
+**Bio:** 
 Lucas é formado em ciência da computação e está atualmente fazendo uma pós em segurança da informação, trabalha como desenvolvedor de sistemas e mora sozinho no centro da cidade. 
 
 **Objetivos:**
@@ -101,9 +101,7 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ## Análise exploratórida dos dados
 
-###    Dicionário de dados
-
-O projeto vai utilizar o dataset "Student Stress Factors""Student_Performance" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
+O projeto vai utilizar o dataset "Student Stress Factors" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
 
 Nele temos os seguintes atributos:
 
@@ -138,12 +136,41 @@ Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Mina
 
 ## Preparação dos dados
 
-A preparação dos dados consiste dos seguintes passos:
+### Seleção dos atributos
 
-> - Seleção dos atributos
-> - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
-> - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
-> - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
+Os seguintes atributos das respectivas bases são indispensáveis ao se tratar de um projeto que visa a análise do relacionamento entre performance escolar e qualidade de sono, pois ter em mãos dados quantitativos e qualitativos que englobam esses dois aspectos é a base da pesquisa. 
+
+- Tabela "Student Stress Factors.csv" (Principal):
+
+	| Atributos | Motivo |
+	| --------- | ------ |
+	| Sleep Quality | Um dos atributos principais, pois nele temos a autoavaliação do estudante sobre sua qualidade de sono |
+	| Suffer headaches| Podem-se procurar relações entre as dores de cabeça e disturbios do sono no geral |
+	| Academic performance | Por se tratar da variavel que nos mostra a performance academica de um aluno é interessante mantermos ela |
+	| Study load | Seria possível observar relações entre a carga horaria da instituição e a performance |
+	| Practice extracurricular activities | Alunos que fazem atividades extra curriculares podem ter performance academica melhor que os demais |
+	| Stress levels | É possivel relacionar o nivel de stress dos alunos com o tempo de sono, carga acadêmica e atividades extracurriculares | 
+
+- Tabela "Student_Performance.csv" (Enriquecimento):
+
+	| Atributos | Motivo |
+	| --------- | ------ |
+	| Hours Studied |  essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações com `academic performance`, `Performance Index` podem ser realizadas |
+	| Sleep Hours |  A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior | 
+	| Previous Scores | Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores |
+	| Performance Index | Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance` |
+
+Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
+
+### Tratamento dos valores faltantes ou omissos 
+
+#### Student stress factors: 
+
+A ausência de valores inconsistentes na tabela principal pode ser atribuída à presença de faixas bem definidas para cada atributo. As pontuação estão em intervalos específicos e bem definidos, o que reflete em uma classificação clara e consistente em relação à intensidade de cada fator. Com essa abordagem estruturada valores discrepantes ou outliers são evitados, caso contrário, a análise poderia ser distorcida. Com faixas pré-determinadas sendo estabelecidas para a pontuações, os dados se mantêm alinhados com a metodologia adotada, facilitando interpretações e correlações entre os diferentes atributos apresentados.
+
+#### Student performance: 
+
+A tabela secundária “Student performance” não precisa passar por tratamento de dados omissos, já que não os possui por se tratar de uma base de dados sintética, ou seja, foi gerada artificialmente e projetada originalmente para que todos os atributos sejam devidamente preenchidos pelo algoritmo.
 
 ## Indução de modelos
 
@@ -153,7 +180,7 @@ Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore d
 Justifique a escolha do modelo.
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
 Descreva os parâmetros utilizados. 
-Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
+\Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
 com o fluxo de processamento.
 
 ### Modelo 2: Algoritmo
