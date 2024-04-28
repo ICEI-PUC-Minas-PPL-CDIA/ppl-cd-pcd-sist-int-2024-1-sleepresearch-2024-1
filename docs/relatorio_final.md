@@ -158,6 +158,9 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 
 Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
 
+TRATAMENTO DOS VALORES INCONSISTENTES NA TABELA PRINCIPAL
+A ausência de valores inconsistentes na tabela principal pode ser atribuída à presença de faixas bem definidas para cada fator de estresse. As pontuação estão em intervalos específicos e bem definidos, o que reflete em uma classificação clara e consistente em relação à intensidade de cada fator. Com essa abordagem estruturada valores discrepantes ou outliers são evitados, caso contrário, a análise poderia ser distorcida. Com faixas pré-determinadas sendo estabelecidas para a pontuações, os dados se mantêm alinhados com a metodologia adotada, facilitando interpretações e correlações entre os diferentes fatores de estresse entre os estudantes universitarios.
+
 ## Indução de modelos
 
 ### Modelo 1: Algoritmo
