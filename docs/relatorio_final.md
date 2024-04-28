@@ -164,7 +164,9 @@ Os demais atributos foram julgados desnecessários, pois são redundantes ou nã
 
 ### Tratamento dos valores faltantes ou omissos 
 
-Student stress factors: 
+#### Student stress factors: 
+
+A ausência de valores inconsistentes na tabela principal pode ser atribuída à presença de faixas bem definidas para cada atributo. As pontuação estão em intervalos específicos e bem definidos, o que reflete em uma classificação clara e consistente em relação à intensidade de cada fator. Com essa abordagem estruturada valores discrepantes ou outliers são evitados, caso contrário, a análise poderia ser distorcida. Com faixas pré-determinadas sendo estabelecidas para a pontuações, os dados se mantêm alinhados com a metodologia adotada, facilitando interpretações e correlações entre os diferentes atributos apresentados.
 
 #### Student performance: 
 
