@@ -184,7 +184,28 @@ Esta tabela trata cada linha como se fosse individuos diferentes, por causa diss
 
 ### Conversão de dados
 
+Primeiramente, é importante ressaltar que é incondizente unir os atributos das bases que foram escolhidas como principal e secundária, uma vez que elas, embora tratem de uma mesma dimensão, têm diferentes abordagens - uma mostra o valor bruto, além de ser sintética, enquanto a outra é uma autoavaliação com valores reais. Por isso, foi escolhido fazer uma relação por meio de voto, em que há uma mesma pergunta para ambas as bases. No entanto, os métodos para chegar em uma resposta seriam pensados em casos isolados para ambas as bases.
+
+Na base principal "Student_stress_factors", há seis atributos, que são referentes à qualidade do sono, à dor de cabeça, à performance acadêmica, à carga horária de estudo, às atividades extracurriculares e ao nível de estresse. Estes são atributos que informam a autoavaliação de cada aluno de 1 a 5, em que 1 se traduz em um índice baixo, e 5 a um índice alto. Foi decidido não fazer o descarte ou alteração de nenhum desses atributos, uma vez que todos estão limpos e apresentam relevância para o problema. Já na base secundária "Student_performance", há os seguintes atributos: "Hours studied", "Previous score", "Extracurricular activities", "Sleep hours", "Sample Question Papers Practiced" e "Performance index". Todos estes são úteis para se chegar em informações, mas há algumas possíveis alterações que podem ser feitas, como formar faixas que mostrem categorias de quem teve, por exemplo, uma boa qualidade de sono, média qualidade de sono ou qualidade de sono ruim. Isso poderia ser feito com os demais atributos, adaptando-se para cada caso. O que pode ser feito em ambas as bases é agregar atributos úteis relativos à operações aritméticas de cada um dos atributos.
+
+Inicialmente, na base "Student Stress Factor" houve a elaboração de uma outra tabela com base nos valores contidos nos atributos dela. Eles são: 
+ 
+- O "estresse index" (equivalente à média da soma da "dor de cabeça" com o "nível de estresse");
+- O "esforço index" (equivalente ao "study load");
+- A "carga horária index" (equivalente à média da soma do "study load" com "extracurricular activities").
+
+Posteriormente, foram criados atributos que significam a razão média entre o estresse, o esforço e a carga horária - cada um de maneira isolada - com a performance acadêmica. Todas essas razões foram observadas em diferentes cenários de sono, sendo o "Sleep quality" equivalente a "1" muito baixo, e "5" muito alto. Essa razão poderá demonstrar o impacto do sono nela, através de comparação. A interpretação que se traduz em cada uma é:
+
+- Razão média entre "Esforço" e "Performance acadêmica" poderá chegar em três casos: o primeiro seria quando a razão fosse equivalente ou muito próxima à "1", indicando um valor que faz jus ao esperado. Se chegar em um resultado maior que "1", significa que o indivíduo se esforçou muito, mas a performance foi menor do que esperada. Ao contrário, se obtivesse um valor maior que "1", significa que o indivíduo teve uma maior performance acadêmica mesmo colocando menos esforço. Todas essas razões estariam conforme cenários de sono de 1 a 5.
+
+- Seguindo a mesma linha, as razões da carga horária e do estresse indicariam o mesmo para valores iguais, maiores ou menores que "1".
+
+Partindo para os índices de interferência, estes pretendem alcançar um valor que indique o impacto de cada atributo na performance acadêmica. Se é um impacto direto ou inverso. Tendo-se os seguintes atributos: "Estresse", "Carga horária", "Esforço" e "Qualidade do sono", intui-se comparar uma mesma faixa de comportamento com o caso de o sono ser muito ruim ou muito bom. Assim traça-se a média da soma dos três atributos faltantes para auxiliar no cálculo para extrair o índice de interferência do atributo alvo. Pega-se as faixas de valores comportamentais extraídos e faz-se a subtração entre a performance média, em um mesmo comportamento, de uma maior qualidade de sono com uma menor qualidade de sono. Se a diferença for positiva, então o impacto é direto. Caso contrário, inverso.
+
+Na segunda base, o mesmo esquema será traçado, mas com diferenças nas faixas e, no fim, existirá uma relação entre as duas bases selecionadas por meio de votos. Utilizando-se um método, haverá a classificação da interferência do sono, estresse, carga horária e esforço como "Muito pouco, Pouco, Interfere, Interfere muito". Cada base produzirá uma resposta na tabela. Assim, será possível observar a relação entre uma base de autoavaliação e outra feita de maneira sintética.
+
 Para acessar a tabela modificada [clique aqui](https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1528647_sga_pucminas_br/Ee219gz6N69GiUpMPXV8O60B0au5kp5GME9S4Zy2qIaHsw?e=UmkFbE)
+
 
 ## Indução de modelos
 
