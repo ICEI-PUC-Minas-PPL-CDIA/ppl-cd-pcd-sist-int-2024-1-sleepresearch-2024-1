@@ -180,7 +180,7 @@ A ausência de valores inconsistentes na tabela principal pode ser atribuída à
 
 #### Student performance: 
 
-
+Esta tabela trata cada linha como se fosse individuos diferentes, por causa disso não existe problema na exeistencia de valores duplicados, pois um aluno pode ter valores iguais a um outro. Além disso, a tabela, que já é sintética, define valores mínimos e máximos para cada campo, extinguindo assim a possibilidade da existência de um outlier.
 
 ### Conversão de dados
 
