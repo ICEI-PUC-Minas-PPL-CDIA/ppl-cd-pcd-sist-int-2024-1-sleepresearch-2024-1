@@ -164,7 +164,15 @@ Os demais atributos foram julgados desnecessários, pois são redundantes ou nã
 
 ### Tratamento dos valores faltantes ou omissos 
 
+#### Student stress factors: 
+
 A ausência de valores faltantes em uma tabela pode ser atribuída ao contexto em que os dados foram coletados, particularmente quando se trata de informações de um questionário. A estrutura do formulário normalmente não permite respostas em branco, pois cada pergunta é projetada para eliciar uma resposta específica, seja numérica, qualitativa ou de múltipla escolha. Essa característica intrínseca dos questionários ajuda a garantir que os dados coletados estejam completos e livres de lacunas, resultando em uma tabela sem valores faltantes. Cada célula da tabela corresponde a uma resposta fornecida pelo respondente, refletindo a totalidade das informações coletadas durante o processo de coleta de dados. Como resultado, a integridade dos dados na tabela é preservada, fornecendo uma base sólida para análises subsequentes. A transparência e a confiabilidade dos resultados obtidos a partir desses dados são reforçadas pela ausência de valores faltantes, evidenciando a robustez do questionário como instrumento de pesquisa.
+
+#### Student performance: 
+
+A tabela secundária “Student performance” não precisa passar por tratamento de dados omissos, já que não os possui por se tratar de uma base de dados sintética, ou seja, foi gerada artificialmente e projetada originalmente para que todos os atributos sejam devidamente preenchidos pelo algoritmo.
+
+### Tratamento dos valores inconsistentes
 
 #### Student stress factors: 
 
@@ -172,9 +180,7 @@ A ausência de valores inconsistentes na tabela principal pode ser atribuída à
 
 #### Student performance: 
 
-A tabela secundária “Student performance” não precisa passar por tratamento de dados omissos, já que não os possui por se tratar de uma base de dados sintética, ou seja, foi gerada artificialmente e projetada originalmente para que todos os atributos sejam devidamente preenchidos pelo algoritmo.
 
-### Tratamento dos valores inconsistentes
 
 ### Conversão de dados
 
