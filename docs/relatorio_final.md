@@ -132,7 +132,7 @@ Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar re
 
 Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
 
-Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
+Para uma melhor analise dos dados [clique aqui.](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
 
 ## Preparação dos dados
 
@@ -205,7 +205,7 @@ Partindo para os índices de interferência, estes pretendem alcançar um valor 
 
 Na segunda base, o mesmo esquema será traçado, mas com diferenças nas faixas e, no fim, existirá uma relação entre as duas bases selecionadas por meio de votos. Utilizando-se um método, haverá a classificação da interferência do sono, estresse, carga horária e esforço como "Muito pouco, Pouco, Interfere, Interfere muito". Cada base produzirá uma resposta na tabela. Assim, será possível observar a relação entre uma base de autoavaliação e outra feita de maneira sintética.
 
-Para acessar a tabela modificada [clique aqui](https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1528647_sga_pucminas_br/Ee219gz6N69GiUpMPXV8O60B0au5kp5GME9S4Zy2qIaHsw?e=UmkFbE)
+Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1528647_sga_pucminas_br/Ee219gz6N69GiUpMPXV8O60B0au5kp5GME9S4Zy2qIaHsw?e=UmkFbE)
 
 
 ## Indução de modelos
