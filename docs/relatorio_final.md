@@ -210,11 +210,12 @@ Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepo
 
 ## Indução de modelos
 
-### Modelo 1: Algoritmo
+### Modelo 1: KNN (K-Nearest Neighbors)
 
-Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc.
-Justifique a escolha do modelo.
+O modelo escolhido foi o KNN, pois é um algoritmo supervisionado de categorização. Esse modelo permite gerar agrupamentos por categoria a partir do conjunto de dados, possibilitando a extração de informações úteis com base nos resultados obtidos.
+
 Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
+
 Descreva os parâmetros utilizados. 
 \Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
 com o fluxo de processamento.
