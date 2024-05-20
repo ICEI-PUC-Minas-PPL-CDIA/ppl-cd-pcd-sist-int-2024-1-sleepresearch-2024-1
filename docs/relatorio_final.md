@@ -250,6 +250,9 @@ Por ultimo, para validarmos os modelos, utilizamos metodo de Cross validation
 
 ![Cross validation tabela 2](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/main/docs/imagens/modelo1/tabela2/cross_validation_t2.png?token=GHSAT0AAAAAACO3YTK7AGKLU3HH3AKUDXFYZSKVG6A)
 
+Extra: Codigo da distribuição da tabela 2
+
+![Código gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/cod_grafico_t2.png?raw=true)
 
 ### Modelo 2: Algoritmo
 
@@ -266,11 +269,16 @@ Resultados antes do ajuste de vizinhos:
 
 ![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D1_t2.png?raw=true)
 
+![Gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/grafico_dist.png?raw=true)
+
 Resultados após do ajuste de vizinhos:
 
 ![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/CR_CM_n%3D3_t1.png?raw=true)
 
 ![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D38_t2.png?raw=true)
+
+
+Grafico da distribuição da tabela 2:
 
 
 
