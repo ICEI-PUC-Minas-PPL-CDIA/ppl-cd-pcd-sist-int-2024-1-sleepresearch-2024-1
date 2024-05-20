@@ -132,7 +132,7 @@ Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar re
 
 Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
 
-Para uma melhor analise dos dados [clique aqui](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
+Para uma melhor analise dos dados [clique aqui.](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
 
 ## Preparação dos dados
 
@@ -157,22 +157,56 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 	| --------- | ------ |
 	| Hours Studied |  essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações com `academic performance`, `Performance Index` podem ser realizadas |
 	| Sleep Hours |  A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior | 
-	| Previous Scores | Pode ser interessante. Pode-se chegar a conclusão de que alunos que têm melhor higiene do sono alcançam notas maiores |
+	| Extracurricular Activities |  Vai ser utilizado para relacionarmos com o campo `Practice extracurricular activities` |
+    | Sample Question Papers Practiced | Atributo que podera ser utilizado futuramanente para saber o nível de dedicação do estudante |
 	| Performance Index | Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance` |
 
 Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
 
 ### Tratamento dos valores faltantes ou omissos 
 
-A ausência de valores faltantes em uma tabela pode ser atribuída ao contexto em que os dados foram coletados, particularmente quando se trata de informações de um questionário. A estrutura do formulário normalmente não permite respostas em branco, pois cada pergunta é projetada para eliciar uma resposta específica, seja numérica, qualitativa ou de múltipla escolha. Essa característica intrínseca dos questionários ajuda a garantir que os dados coletados estejam completos e livres de lacunas, resultando em uma tabela sem valores faltantes. Cada célula da tabela corresponde a uma resposta fornecida pelo respondente, refletindo a totalidade das informações coletadas durante o processo de coleta de dados. Como resultado, a integridade dos dados na tabela é preservada, fornecendo uma base sólida para análises subsequentes. A transparência e a confiabilidade dos resultados obtidos a partir desses dados são reforçadas pela ausência de valores faltantes, evidenciando a robustez do questionário como instrumento de pesquisa.
-
 #### Student stress factors: 
 
-A ausência de valores inconsistentes na tabela principal pode ser atribuída à presença de faixas bem definidas para cada atributo. As pontuação estão em intervalos específicos e bem definidos, o que reflete em uma classificação clara e consistente em relação à intensidade de cada fator. Com essa abordagem estruturada valores discrepantes ou outliers são evitados, caso contrário, a análise poderia ser distorcida. Com faixas pré-determinadas sendo estabelecidas para a pontuações, os dados se mantêm alinhados com a metodologia adotada, facilitando interpretações e correlações entre os diferentes atributos apresentados.
+A ausência de valores faltantes em uma tabela pode ser atribuída ao contexto em que os dados foram coletados, particularmente quando se trata de informações de um questionário. A estrutura do formulário normalmente não permite respostas em branco, pois cada pergunta é projetada para eliciar uma resposta específica, seja numérica, qualitativa ou de múltipla escolha. Essa característica intrínseca dos questionários ajuda a garantir que os dados coletados estejam completos e livres de lacunas, resultando em uma tabela sem valores faltantes. Cada célula da tabela corresponde a uma resposta fornecida pelo respondente, refletindo a totalidade das informações coletadas durante o processo de coleta de dados. Como resultado, a integridade dos dados na tabela é preservada, fornecendo uma base sólida para análises subsequentes. A transparência e a confiabilidade dos resultados obtidos a partir desses dados são reforçadas pela ausência de valores faltantes, evidenciando a robustez do questionário como instrumento de pesquisa.
 
 #### Student performance: 
 
 A tabela secundária “Student performance” não precisa passar por tratamento de dados omissos, já que não os possui por se tratar de uma base de dados sintética, ou seja, foi gerada artificialmente e projetada originalmente para que todos os atributos sejam devidamente preenchidos pelo algoritmo.
+
+### Tratamento dos valores inconsistentes
+
+#### Student stress factors: 
+
+A ausência de valores inconsistentes na tabela principal pode ser atribuída à presença de faixas bem definidas para cada atributo. As pontuações estão em intervalos específicos e bem definidos, o que reflete em uma classificação clara e consistente em relação à intensidade de cada fator. Com essa abordagem estruturada valores discrepantes ou outliers são evitados, caso contrário, a análise poderia ser distorcida. Com faixas pré-determinadas sendo estabelecidas para a pontuações, os dados se mantêm alinhados com a metodologia adotada, facilitando interpretações e correlações entre os diferentes atributos apresentados.
+
+#### Student performance: 
+
+Esta tabela trata cada linha como se fosse individuos diferentes, por causa disso não existe problema na exeistencia de valores duplicados, pois um aluno pode ter valores iguais a um outro. Além disso, a tabela, que já é sintética, define valores mínimos e máximos para cada campo, extinguindo assim a possibilidade da existência de um outlier.
+
+### Conversão de dados
+
+Primeiramente, é importante ressaltar que é incondizente unir os atributos das bases que foram escolhidas como principal e secundária, uma vez que elas, embora tratem de uma mesma dimensão, têm diferentes abordagens - uma mostra o valor bruto, além de ser sintética, enquanto a outra é uma autoavaliação com valores reais. Por isso, foi escolhido fazer uma relação por meio de voto, em que há uma mesma pergunta para ambas as bases. No entanto, os métodos para chegar em uma resposta seriam pensados em casos isolados para ambas as bases.
+
+Na base principal "Student_stress_factors", há seis atributos, que são referentes à qualidade do sono, à dor de cabeça, à performance acadêmica, à carga horária de estudo, às atividades extracurriculares e ao nível de estresse. Estes são atributos que informam a autoavaliação de cada aluno de 1 a 5, em que 1 se traduz em um índice baixo, e 5 a um índice alto. Foi decidido não fazer o descarte ou alteração de nenhum desses atributos, uma vez que todos estão limpos e apresentam relevância para o problema. Já na base secundária "Student_performance", há os seguintes atributos: "Hours studied", "Previous score", "Extracurricular activities", "Sleep hours", "Sample Question Papers Practiced" e "Performance index". Todos estes são úteis para se chegar em informações, mas há algumas possíveis alterações que podem ser feitas, como formar faixas que mostrem categorias de quem teve, por exemplo, uma boa qualidade de sono, média qualidade de sono ou qualidade de sono ruim. Isso poderia ser feito com os demais atributos, adaptando-se para cada caso. O que pode ser feito em ambas as bases é agregar atributos úteis relativos à operações aritméticas de cada um dos atributos.
+
+Inicialmente, na base "Student Stress Factor" houve a elaboração de uma outra tabela com base nos valores contidos nos atributos dela. Eles são: 
+ 
+- O "estresse index" (equivalente à média da soma da "dor de cabeça" com o "nível de estresse");
+- O "esforço index" (equivalente ao "study load");
+- A "carga horária index" (equivalente à média da soma do "study load" com "extracurricular activities").
+
+Posteriormente, foram criados atributos que significam a razão média entre o estresse, o esforço e a carga horária - cada um de maneira isolada - com a performance acadêmica. Todas essas razões foram observadas em diferentes cenários de sono, sendo o "Sleep quality" equivalente a "1" muito baixo, e "5" muito alto. Essa razão poderá demonstrar o impacto do sono nela, através de comparação. A interpretação que se traduz em cada uma é:
+
+- Razão média entre "Esforço" e "Performance acadêmica" poderá chegar em três casos: o primeiro seria quando a razão fosse equivalente ou muito próxima à "1", indicando um valor que faz jus ao esperado. Se chegar em um resultado maior que "1", significa que o indivíduo se esforçou muito, mas a performance foi menor do que esperada. Ao contrário, se obtivesse um valor maior que "1", significa que o indivíduo teve uma maior performance acadêmica mesmo colocando menos esforço. Todas essas razões estariam conforme cenários de sono de 1 a 5.
+
+- Seguindo a mesma linha, as razões da carga horária e do estresse indicariam o mesmo para valores iguais, maiores ou menores que "1".
+
+Partindo para os índices de interferência, estes pretendem alcançar um valor que indique o impacto de cada atributo na performance acadêmica. Se é um impacto direto ou inverso. Tendo-se os seguintes atributos: "Estresse", "Carga horária", "Esforço" e "Qualidade do sono", intui-se comparar uma mesma faixa de comportamento com o caso de o sono ser muito ruim ou muito bom. Assim traça-se a média da soma dos três atributos faltantes para auxiliar no cálculo para extrair o índice de interferência do atributo alvo. Pega-se as faixas de valores comportamentais extraídos e faz-se a subtração entre a performance média, em um mesmo comportamento, de uma maior qualidade de sono com uma menor qualidade de sono. Se a diferença for positiva, então o impacto é direto. Caso contrário, inverso.
+
+Na segunda base, o mesmo esquema será traçado, mas com diferenças nas faixas e, no fim, existirá uma relação entre as duas bases selecionadas por meio de votos. Utilizando-se um método, haverá a classificação da interferência do sono, estresse, carga horária e esforço como "Muito pouco, Pouco, Interfere, Interfere muito". Cada base produzirá uma resposta na tabela. Assim, será possível observar a relação entre uma base de autoavaliação e outra feita de maneira sintética.
+
+Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1528647_sga_pucminas_br/Ee219gz6N69GiUpMPXV8O60B0au5kp5GME9S4Zy2qIaHsw?e=UmkFbE)
+
 
 ## Indução de modelos
 
