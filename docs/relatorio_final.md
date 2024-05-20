@@ -214,11 +214,38 @@ Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepo
 
 O modelo escolhido foi o KNN, pois é um algoritmo supervisionado de categorização. Esse modelo permite gerar agrupamentos por categoria a partir do conjunto de dados, possibilitando a extração de informações úteis com base nos resultados obtidos.
 
-Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn2, (modelo utilizado) data2,(tabela) e data2['Performance Index'], (dado a ser avaliado) repartiu-se o dataset em 3 partes, 2 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 3 vezes, para que assim se pudesse observar o acurancy de 0.93%. 
+Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn, (modelo utilizado) data,(tabela) e data['academic performance'], (dado a ser avaliado) repartiu-se o dataset em 5 partes, 4 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 5 vezes, para que assim se pudesse observar o acurancy de 100%. Foi feita da mesma forma com o modelo da segunda tabela, adquirindo-se uma precisão de 94%
 
+Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standart scaler
 
-\Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
-com o fluxo de processamento.
+![Normalização tabela 1]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/normalização_t1.png?raw=true])
+![Normalização tabela 2]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/normalização_t2.png?raw=true])
+
+Agora, usamos a função `train_test_split` para separar os dados de treino dos dados de teste e, após isso, utilizamos esses dados no KNN com o numero de vizinhos definido como 1
+
+![KNN tabela 1]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D1_t1.png?raw=true])
+
+![KNN tabela 2]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D1_t2.png?raw=true])
+
+Como o numero de vizinhos ideal pode variar de acordo com cada tabela devemos descobrir o numero ideal para cada uma delas. Para isso refazemos o processo do KNN dentro de um for que incrementa os valores de uma variavel `i` de 1 a 40, essa variavel é utilizada como parametro do numero de vizinhos. Após esse for é plotado um gráfico que nos mostra as taxas de erro para cada numero de vizinhos.
+
+![error rate tabela 1]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/error_rate_t1.png?raw=true])
+![gráfico tabela 1]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/error_rate_graph_t1.png?raw=true])
+
+![error rate tabela 2]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/error_rate_t2.png?raw=true])
+![gráfico tabela 2]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/error_rate_graph_t2.png?raw=true])
+
+O KNN é novamente feito após a descoberta do melhor numero de vizinhos, utilizando o melhor encontrado.
+
+![KNN2 tabela 1]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D3_t1.png?raw=true])
+
+![KNN2 tabela 2]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D38_t2.png.png?raw=true])
+
+Por ultimo, para validarmos os modelos, utilizamos metodo de Cross validation
+
+![Cross validation tabela 1]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/cross_validation_t1.png?raw=true])
+![Cross validation tabela 2]([https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/cross_validation_t2.png?raw=true])
+
 
 ### Modelo 2: Algoritmo
 
