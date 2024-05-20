@@ -214,9 +214,9 @@ Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepo
 
 O modelo escolhido foi o KNN, pois é um algoritmo supervisionado de categorização. Esse modelo permite gerar agrupamentos por categoria a partir do conjunto de dados, possibilitando a extração de informações úteis com base nos resultados obtidos.
 
-Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
+Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn2, (modelo utilizado) data2,(tabela) e data2['Performance Index'], (dado a ser avaliado) repartiu-se o dataset em 3 partes, 2 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 3 vezes, para que assim se pudesse observar o acurancy de 0.93%. 
 
-Descreva os parâmetros utilizados. 
+
 \Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
 com o fluxo de processamento.
 
