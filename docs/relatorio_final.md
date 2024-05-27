@@ -210,14 +210,49 @@ Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepo
 
 ## Indução de modelos
 
-### Modelo 1: Algoritmo
+### Modelo 1: KNN (K-Nearest Neighbors)
 
-Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc.
-Justifique a escolha do modelo.
-Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
-Descreva os parâmetros utilizados. 
-\Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
-com o fluxo de processamento.
+O modelo escolhido foi o KNN, pois é um algoritmo supervisionado de categorização. Esse modelo permite gerar agrupamentos por categoria a partir do conjunto de dados, possibilitando a extração de informações úteis com base nos resultados obtidos.
+
+Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn, (modelo utilizado) data,(tabela) e data['academic performance'], (dado a ser avaliado) repartiu-se o dataset em 5 partes, 4 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 5 vezes, para que assim se pudesse observar o acurancy de 100%. Foi feita da mesma forma com o modelo da segunda tabela, adquirindo-se uma precisão de 94%
+
+Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standart scaler
+
+![Normalização tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/normalização_t1.png?raw=true)
+
+![Normalização tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/normalização_t2.png?raw=true)
+
+Agora, usamos a função `train_test_split` para separar os dados de treino dos dados de teste e, após isso, utilizamos esses dados no KNN com o numero de vizinhos definido como 1
+
+![KNN tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D1_t1.png?raw=true)
+
+![KNN tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D1_t2.png?raw=true)
+
+Como o numero de vizinhos ideal pode variar de acordo com cada tabela devemos descobrir o numero ideal para cada uma delas. Para isso refazemos o processo do KNN dentro de um for que incrementa os valores de uma variavel `i` de 1 a 40, essa variavel é utilizada como parametro do numero de vizinhos. Após esse for é plotado um gráfico que nos mostra as taxas de erro para cada numero de vizinhos.
+
+![error rate tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/error_rate_t1.png?raw=true)
+
+![gráfico tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/error_rate_graph_t1.png?raw=true)
+
+![error rate tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/error_rate_t2.png?raw=true)
+
+![gráfico tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/error_rate_graph_t2.png?raw=true)
+
+O KNN é novamente feito após a descoberta do melhor numero de vizinhos, utilizando o melhor encontrado.
+
+![KNN2 tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D3_t1.png?raw=true)
+
+![KNN2 tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D38_t2.png?raw=true)
+
+Por ultimo, para validarmos os modelos, utilizamos metodo de Cross validation
+
+![Cross validation tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/cross_validation_t1.png?raw=true)
+
+![Cross validation tabela 2](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/main/docs/imagens/modelo1/tabela2/cross_validation_t2.png?token=GHSAT0AAAAAACO3YTK7AGKLU3HH3AKUDXFYZSKVG6A)
+
+Extra: Codigo da distribuição da tabela 2
+
+![Código gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/cod_grafico_t2.png?raw=true)
 
 ### Modelo 2: Algoritmo
 
@@ -228,10 +263,24 @@ Repita os passos anteriores para o segundo modelo.
 
 ### Resultados obtidos com o modelo 1.
 
-Apresente aqui os resultados obtidos com a indução do modelo 1. 
-Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance
-apropriadas para o seu problema. 
-Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
+Resultados antes do ajuste de vizinhos:
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/CR_CM_t1.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D1_t2.png?raw=true)
+
+![Gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/grafico_dist.png?raw=true)
+
+Resultados após do ajuste de vizinhos:
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/CR_CM_n%3D3_t1.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D38_t2.png?raw=true)
+
+
+Grafico da distribuição da tabela 2:
+
+
 
 ### Interpretação do modelo 1
 
@@ -239,6 +288,60 @@ Apresente os parâmetros do modelo obtido. Tentre mostrar as regras que são uti
 processo de 'raciocínio' (*reasoning*) do sistema inteligente. Utilize medidas como 
 o *feature importances* para tentar entender quais atributos o modelo se baseia no
 processo de tomada de decisão.
+
+#### Descrição dos Parâmentros Utilizados
+
+O código desenvolvido envolve parâmetros que desempenham funções cruciais na análise dos dados e no treinamento do modelo KNN.
+
+- **Parâmetros gerais:**
+
+	 - **random_state:** Este parâmetro define a semente para o gerador de números aleatórios, garantindo a reprodutibilidade dos resultados em diferentes execuções. Um valor específico (por exemplo, 42) garante divisões de dados e comportamento do modelo consistentes.
+
+- **Parâmetros de Pré-processamento de Dados:**
+
+	- **StandardScaler:** Este parâmetro normaliza as características padronizando-as, garantindo que tenham média zero e desvio padrão de um. Isso evita que características com escalas maiores dominem o aprendizado do modelo.
+
+- **Parâmetros de Treinamento do Modelo:**
+
+	- **KNeighborsClassifier:** É uma classe que implementa o algoritmo k-Nearest Neighbors para classificação.
+
+		- n_neighbors (padrão 1): Este parâmetro especifica o número de vizinhos mais próximosa serem considerados ao fazer previsões. Um valor maior considera mais vizinhos, potencialmente aumentando a precisão, mas com o contra de um custo computacional maior.
+
+	- **train_test_split:** Esta função divide os dados em conjuntos de treinamento e teste, permitindo que o modelo aprenda com um conjunto e avalie seu desempenho no outro.
+
+	- **test_size (Padrão 0.25):** este parâmetro determina a proporção de dados alocados ao conjunto de teste. Um valor mais alto aumenta o tamanho do conjunto de teste, fornecendo mais dados para avaliação, mas reduzinho o tamanho do conjunto de treinamento.
+
+- **Parâmetros de Avaliação:**
+
+	- **classification_report:** Esta função gera um relatório detalhado do desempenho de classificação do modelo, incluindo precisão e suporte para cada classe.
+
+	- **confusion_matrix:** Esta função cria uma matriz que visualiza a distribuição de previsões corretas e incorretas entre as classes.
+
+	- **cross_val_score:** Esta função realiza validação cruzada, avaliando o desempenho do modelo em várias divisões aleatórias dos dados.
+		- cv (Padrão: 5): Este parâmetro especifica o número de dobras para validação cruzada.Quanto mais alto o valor, mais confiável é a avaliação.
+
+- **Parâmetros de visualização:**
+	- **plotly.express.scatter:** Esta função cria um gráfico de dispersão que visualiza a relação entre as variáveis.
+
+		- x: Este parâmetro especifica os dados a serem plotados no eixo x.
+
+		- y: Este parâmetro especifica os dados a serem plotados no eixo y.
+
+	- **color:** Este parâmetro atribui cores aos pontos de dados com base em uma variável especificada.
+
+		- symbol: Este parâmetro atribui símbolos aos pontos de dados com base em uma variável especificada.
+
+		- labels: Este parâmetro define rótulos para o eixo x e a legenda de cores.
+
+- **Observações:**
+
+	- O código utiliza bibliotecas para manipulação de dados, visualização e aprendizado de máquina, incluindo pandas, numpy, seaborn, matplotlib, plotly, cufflinks e sklearn.
+	- O pré-processamento garante que o formato dos dados esteja adequado para que o modelo aprenda de forma eficaz.
+	- O treinamento divide os dados em conjuntos de treinamento e teste.
+	- Após estes processos, o desempenho do modelo é avaliado usando métricas como relatório de classificação, matriz de confusão e validação cruzada.
+	- A etapa de visualização é usada para interpretar resultados do modelo e identificar padrões nos dados.
+	
+
 
 
 ### Resultados obtidos com o modelo 2.
