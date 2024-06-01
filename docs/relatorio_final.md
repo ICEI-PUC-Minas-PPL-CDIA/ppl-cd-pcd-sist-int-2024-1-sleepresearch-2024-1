@@ -248,7 +248,7 @@ Por ultimo, para validarmos os modelos, utilizamos metodo de Cross validation
 
 ![Cross validation tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/cross_validation_t1.png?raw=true)
 
-![Cross validation tabela 2](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/main/docs/imagens/modelo1/tabela2/cross_validation_t2.png?token=GHSAT0AAAAAACO3YTK7AGKLU3HH3AKUDXFYZSKVG6A)
+![Cross validation tabela 2](docs\imagens\modelo1\tabela2\cross_validation_t2.png)
 
 Extra: Codigo da distribuição da tabela 2
 
