@@ -255,10 +255,21 @@ Extra: Codigo da distribuição da tabela 2
 
 ![Código gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/cod_grafico_t2.png?raw=true)
 
-### Modelo 2: Algoritmo
+### Modelo 2: Árvore de decisão
 
-Repita os passos anteriores para o segundo modelo.
+O modelo escolhido foi a árvore de decisão, que é um algoritmo de aprendizado de máquina supervisionado utilizado para classificação e regressão. No contexto do problema apresentado, a árvore de decisão foi escolhida por ser adequada para lidar com dados numéricos e categóricos, como os presentes nos datasets "Student Stress Factors.csv" e "Student_Performance.csv". A árvore de decisão permite identificar padrões nos dados, dividindo-os em subconjuntos menores com base em características relevantes, o que facilita a interpretação dos resultados e a tomada de decisões.
 
+A árvore de decisão é um modelo adequado para este problema por várias razões:
+
+Interpretabilidade: As árvores de decisão são altamente interpretáveis, permitindo visualizar as regras de decisão aprendidas pelo modelo. Isso é crucial para entender os fatores que contribuem para o estresse do aluno e o desempenho acadêmico.
+
+Lidar com Dados Numéricos e Categóricos: As árvores de decisão podem lidar com uma mistura de dados numéricos (por exemplo, "Horas de Estudo", "Pontuações Anteriores") e categóricos (por exemplo, "Atividades Extracurriculares"). Isso é importante, pois os conjuntos de dados contêm ambos os tipos de dados.
+
+Não Linearidade: As árvores de decisão podem capturar relações não lineares entre as variáveis, o que pode ser importante para modelar relações complexas entre os fatores de estresse, o desempenho acadêmico e outros atributos dos alunos.
+
+Seleção Automática de Recursos: As árvores de decisão realizam implicitamente a seleção de recursos, identificando as variáveis mais importantes para a previsão. Isso pode ajudar a identificar os principais fatores que influenciam o estresse e o desempenho dos alunos.
+
+Fácil Implementação: As árvores de decisão são relativamente simples de implementar e entender, tornando-as uma boa escolha para este problema.
 
 ## Resultados
 
