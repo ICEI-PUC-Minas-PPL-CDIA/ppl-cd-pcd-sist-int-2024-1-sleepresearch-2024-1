@@ -271,6 +271,42 @@ Seleção Automática de Recursos: As árvores de decisão realizam implicitamen
 
 Fácil Implementação: As árvores de decisão são relativamente simples de implementar e entender, tornando-as uma boa escolha para este problema.
 
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/CodigoDaGraficodaMAtriz.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/CodigoDaImagemdedecisao.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/CodigoDaMAtriz.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/decisao.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/df.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/modelodaArvore.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/output.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/Scaler.png?raw=true)
+
+![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/X_train.Y_Train.png?raw=true)
+
+
+
+
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/df.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/GRafico%20de%20decisao.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/GraficoMatrizTabela2.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/MAtrizTabela2.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/output.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/sacler.png?raw=true)
+
+![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/X_trainY_Train.png?raw=true)
+
 ## Resultados
 
 ### Resultados obtidos com o modelo 1.
