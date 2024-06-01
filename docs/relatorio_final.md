@@ -290,9 +290,6 @@ Resultados após do ajuste de vizinhos:
 ![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D38_t2.png?raw=true)
 
 
-Grafico da distribuição da tabela 2:
-
-
 
 ### Interpretação do modelo 1
 
