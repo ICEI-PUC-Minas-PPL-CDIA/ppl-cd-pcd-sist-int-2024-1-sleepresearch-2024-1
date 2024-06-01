@@ -355,7 +355,14 @@ O código desenvolvido envolve parâmetros que desempenham funções cruciais na
 
 ### Resultados obtidos com o modelo 2.
 
-Repita o passo anterior com os resultados do modelo 2.
+Resultados da tabela 1:
+
+![Resultados tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/parametrosmode2.png?raw=true)
+
+Resultados da tabela 2: 
+
+![Resultados tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/Parametrotabela2.png?raw=true)
+
 
 ### Interpretação do modelo 2
 
