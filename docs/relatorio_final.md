@@ -271,41 +271,47 @@ Seleção Automática de Recursos: As árvores de decisão realizam implicitamen
 
 Fácil Implementação: As árvores de decisão são relativamente simples de implementar e entender, tornando-as uma boa escolha para este problema.
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/CodigoDaGraficodaMAtriz.png?raw=true)
+![Standard Scaler tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Standard.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/CodigoDaImagemdedecisao.png?raw=true)
+![Normalização tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Normalizacao.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/CodigoDaMAtriz.png?raw=true)
+![Treinamento tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Treinamento.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/decisao.png?raw=true)
+![Plotando a árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_arvore.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/df.png?raw=true)
+![Árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Arvore.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/modelodaArvore.png?raw=true)
+![Plotando em dot tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_dot.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/output.png?raw=true)
+![Matriz tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Matriz.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/Scaler.png?raw=true)
+![Plotando heatmap tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_heatmap.jpeg?raw=true)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/X_train.Y_Train.png?raw=true)
-
-
+![Heatmap tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Heatmap.jpeg?raw=true)
 
 
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/df.png?raw=true)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/GRafico%20de%20decisao.png?raw=true)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/GraficoMatrizTabela2.png?raw=true)
+![Standard scaler tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.48.46%20PM.jpeg?raw=true)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/MAtrizTabela2.png?raw=true)
+![Parâmetros tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.48.56%20PM.jpeg?raw=true)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/output.png?raw=true)
+![Treinamento tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.07%20PM.jpeg?raw=true)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/sacler.png?raw=true)
+![Plotando a árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.16%20PM.jpeg?raw=true)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/X_trainY_Train.png?raw=true)
+![Árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.22%20PM.jpeg?raw=true)
+
+![Plotando em dot tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.41%20PM.jpeg?raw=true)
+
+![Matriz tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.50.21%20PM.jpeg?raw=true)
+
+![Plotando o heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.50.31%20PM.jpeg?raw=true)
+
+![Heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.50.36%20PM.jpeg?raw=true)
+
+
 
 ## Resultados
 
