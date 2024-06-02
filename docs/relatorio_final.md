@@ -216,7 +216,7 @@ O modelo escolhido foi o KNN, pois é um algoritmo supervisionado de categoriza�
 
 Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn, (modelo utilizado) data,(tabela) e data['academic performance'], (dado a ser avaliado) repartiu-se o dataset em 5 partes, 4 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 5 vezes, para que assim se pudesse observar o acurancy de 100%. Foi feita da mesma forma com o modelo da segunda tabela, adquirindo-se uma precisão de 94%
 
-Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standart scaler
+Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standard scaler
 
 ![Normalização tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/normalização_t1.png?raw=true)
 
@@ -271,19 +271,35 @@ Seleção Automática de Recursos: As árvores de decisão realizam implicitamen
 
 Fácil Implementação: As árvores de decisão são relativamente simples de implementar e entender, tornando-as uma boa escolha para este problema.
 
+Árvore da primeira tabela (academic performance):
+
+Primeiramente foi feita a normalização dos dados do dataset utilizando a função standard scaler.
+
 ![Standard Scaler tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Standard.jpeg?raw=true)
 
-![Normalização tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Normalizacao.jpeg?raw=true)
+Após isso, foram definidos os parâmetros utilizados.
+
+![Parâmetros tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Parametros.jpeg?raw=true)
+
+Treinamento.
 
 ![Treinamento tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Treinamento.jpeg?raw=true)
+
+Plotagem da árvore de decisão.
 
 ![Plotando a árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_arvore.jpeg?raw=true)
 
 ![Árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Arvore.jpeg?raw=true)
 
+Para que se obtivesse uma melhor visualização, a árvore de decisão foi plotada em formato dot. 
+
 ![Plotando em dot tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_dot.jpeg?raw=true)
 
+Matriz de confusão.
+
 ![Matriz tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Matriz.jpeg?raw=true)
+
+Heatmap.
 
 ![Plotando heatmap tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_heatmap.jpeg?raw=true)
 
@@ -291,25 +307,39 @@ Fácil Implementação: As árvores de decisão são relativamente simples de im
 
 
 
+Árvore da segunda tabela (student stress factor):
 
+Para a segunda árvore, o mesmo processo foi feito, começando pela normalização com a função standard scaler.
 
-![Standard scaler tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.48.46%20PM.jpeg?raw=true)
+![Standard scaler tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/StandardScaler2.jpeg?raw=true)
 
-![Parâmetros tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.48.56%20PM.jpeg?raw=true)
+Definiu-se os parâmetros a serem utilizados.
 
-![Treinamento tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.07%20PM.jpeg?raw=true)
+![Parâmetros tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Parametros2.jpeg?raw=true)
 
-![Plotando a árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.16%20PM.jpeg?raw=true)
+Treinamento.
 
-![Árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.22%20PM.jpeg?raw=true)
+![Treinamento tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Treinamento2.jpeg?raw=true)
 
-![Plotando em dot tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.49.41%20PM.jpeg?raw=true)
+Plotagem da árvore.
 
-![Matriz tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.50.21%20PM.jpeg?raw=true)
+![Plotando a árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_arvore2.jpeg?raw=true)
 
-![Plotando o heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.50.31%20PM.jpeg?raw=true)
+![Árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Arvore2.jpeg?raw=true)
 
-![Heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/WhatsApp%20Image%202024-06-01%20at%208.50.36%20PM.jpeg?raw=true)
+Foi novamente plotada a árvore em formato dot.
+
+![Plotando em dot tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_dot2.jpeg?raw=true)
+
+Matriz de confusão.
+
+![Matriz tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Matriz2.jpeg?raw=true)
+
+Plotagem do heatmap.
+
+![Plotando o heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_heatmap2.jpeg?raw=true)
+
+![Heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Heatmap2.jpeg?raw=true)
 
 
 
