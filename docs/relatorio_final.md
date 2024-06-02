@@ -214,15 +214,15 @@ Para acessar a tabela modificada [clique aqui.](https://sgapucminasbr-my.sharepo
 
 O modelo escolhido foi o KNN, pois é um algoritmo supervisionado de categorização. Esse modelo permite gerar agrupamentos por categoria a partir do conjunto de dados, possibilitando a extração de informações úteis com base nos resultados obtidos.
 
-Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn, (modelo utilizado) data,(tabela) e data['academic performance'], (dado a ser avaliado) repartiu-se o dataset em 5 partes, 4 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 5 vezes, para que assim se pudesse observar o acurancy de 100%. Foi feita da mesma forma com o modelo da segunda tabela, adquirindo-se uma precisão de 94%
+Foi utilizado cross validation para amostragem de dados da seguinte maneira: Utilizando os parametros knn, (modelo utilizado) data,(tabela) e data['academic performance'], (dado a ser avaliado) repartiu-se o dataset em 5 partes, 4 usadas parar teste e 1 usada para testar o resultado, alternando-se cada parte pode forma cruzada por 5 vezes, para que assim se pudesse observar o acurancy de 100%. Foi feita da mesma forma com o modelo da segunda tabela, adquirindo-se uma precisão de 94%.
 
-Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standard scaler
+Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standard scaler.
 
 ![Normalização tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/normalização_t1.png?raw=true)
 
 ![Normalização tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/normalização_t2.png?raw=true)
 
-Agora, usamos a função `train_test_split` para separar os dados de treino dos dados de teste e, após isso, utilizamos esses dados no KNN com o numero de vizinhos definido como 1
+Agora, usamos a função `train_test_split` para separar os dados de treino dos dados de teste e, após isso, utilizamos esses dados no KNN com o numero de vizinhos definido como 1.
 
 ![KNN tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D1_t1.png?raw=true)
 
@@ -244,14 +244,14 @@ O KNN é novamente feito após a descoberta do melhor numero de vizinhos, utiliz
 
 ![KNN2 tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D38_t2.png?raw=true)
 
-Por ultimo, para validarmos os modelos, utilizamos metodo de Cross validation
+Por último, para validarmos os modelos, utilizamos metodo de Cross validation.
 
 ![Cross validation tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/cross_validation_t1.png?raw=true)
 
 ![Cross validation tabela 2](imagens/modelo1/tabela2/cross_validation_t2.png)
 
 
-Extra: Codigo da distribuição da tabela 2
+Extra: Codigo da distribuição da tabela 2.
 
 ![Código gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/cod_grafico_t2.png?raw=true)
 
@@ -277,29 +277,29 @@ Primeiramente foi feita a normalização dos dados do dataset utilizando a funç
 
 ![Standard Scaler tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Standard.jpeg?raw=true)
 
-Após isso, foram definidos os parâmetros utilizados.
+Após isso, um novo dataset foi gerado com o nome df_parm com os dados normalizados, excluindo a coluna academic performance, pois é a que será prevista. 
 
 ![Parâmetros tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Parametros.jpeg?raw=true)
 
-Treinamento.
+Foram separados 25% dos dados da tabela para teste e 75% para treinamento utilizando a função `train_test_split`.
 
 ![Treinamento tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Treinamento.jpeg?raw=true)
 
-Plotagem da árvore de decisão.
+Plotagem da árvore de decisão:
 
 ![Plotando a árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_arvore.jpeg?raw=true)
 
 ![Árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Arvore.jpeg?raw=true)
 
-Para que se obtivesse uma melhor visualização, a árvore de decisão foi plotada em formato dot. 
+Para que se obtivesse uma melhor visualização, a árvore de decisão também foi plotada em formato docs. 
 
-![Plotando em dot tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_dot.jpeg?raw=true)
+![Plotando em docs tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_dot.jpeg?raw=true)
 
-Matriz de confusão.
+Logo após, foram feitos a matriz de confusão e um heatmap, utilizado para validar o modelo.
 
 ![Matriz tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Matriz.jpeg?raw=true)
 
-Heatmap.
+Plotagem do heatmap: 
 
 ![Plotando heatmap tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_heatmap.jpeg?raw=true)
 
@@ -313,29 +313,29 @@ Para a segunda árvore, o mesmo processo foi feito, começando pela normalizaç�
 
 ![Standard scaler tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/StandardScaler2.jpeg?raw=true)
 
-Definiu-se os parâmetros a serem utilizados.
+Um novo dataset foi gerado com o nome df_parm com os dados normalizados, excluindo a coluna academic performance, pois é a que será prevista.
 
 ![Parâmetros tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Parametros2.jpeg?raw=true)
 
-Treinamento.
+Foram separados 25% dos dados da tabela para teste e 75% para treinamento utilizando a função `train_test_split`.
 
 ![Treinamento tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Treinamento2.jpeg?raw=true)
 
-Plotagem da árvore.
+Plotagem da árvore:
 
 ![Plotando a árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_arvore2.jpeg?raw=true)
 
 ![Árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Arvore2.jpeg?raw=true)
 
-Foi novamente plotada a árvore em formato dot.
+Foi também plotada a segunda árvore em formato docs.
 
-![Plotando em dot tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_dot2.jpeg?raw=true)
+![Plotando em docs tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_dot2.jpeg?raw=true)
 
-Matriz de confusão.
+Por fim, foi feita a plotagem da matriz de confusão e a validação do modelo utilizando o heatmap.
 
 ![Matriz tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Matriz2.jpeg?raw=true)
 
-Plotagem do heatmap.
+Plotagem do heatmap:
 
 ![Plotando o heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_heatmap2.jpeg?raw=true)
 
