@@ -218,42 +218,39 @@ Foi utilizado cross validation para amostragem de dados da seguinte maneira: Uti
 
 Para podermos utilizar o KNN corretamente é preciso antes normalizar os dados presentes no dataset, para isso utiliza-se a função standard scaler.
 
-![Normalização tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/normalização_t1.png?raw=true)
+![Normalização tabela 1](./imagens/modelo1/tabela1/normalização_t1.png)
 
-![Normalização tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/normalização_t2.png?raw=true)
+![Normalização tabela 2](./imagens/modelo1/tabela2/normalização_t2.png)	
 
 Agora, usamos a função `train_test_split` para separar os dados de treino dos dados de teste e, após isso, utilizamos esses dados no KNN com o numero de vizinhos definido como 1.
 
-![KNN tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D1_t1.png?raw=true)
+![KNN tabela 1](./imagens/modelo1/tabela1/knn_n=1_t1.png)
 
-![KNN tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D1_t2.png?raw=true)
+![KNN tabela 2](./imagens/modelo1/tabela2/knn_n=1_t2.png)
 
 Como o numero de vizinhos ideal pode variar de acordo com cada tabela devemos descobrir o numero ideal para cada uma delas. Para isso refazemos o processo do KNN dentro de um for que incrementa os valores de uma variavel `i` de 1 a 40, essa variavel é utilizada como parametro do numero de vizinhos. Após esse for é plotado um gráfico que nos mostra as taxas de erro para cada numero de vizinhos.
 
-![error rate tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/error_rate_t1.png?raw=true)
+![error rate tabela 1](./imagens/modelo1/tabela1/error_rate_t1.png)
 
-![gráfico tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/error_rate_graph_t1.png?raw=true)
+![gráfico tabela 1](./imagens/modelo1/tabela1/error_rate_graph_t1.png)
 
-![error rate tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/error_rate_t2.png?raw=true)
+Tabela 2:
 
-![gráfico tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/error_rate_graph_t2.png?raw=true)
+![error rate tabela 2](./imagens/modelo1/tabela2/error_rate_t2.png)
+
+![gráfico tabela 2](./imagens/modelo1/tabela2/error_rate_graph_t2.png)
 
 O KNN é novamente feito após a descoberta do melhor numero de vizinhos, utilizando o melhor encontrado.
 
-![KNN2 tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/knn_n%3D3_t1.png?raw=true)
+![KNN2 tabela 1](./imagens/modelo1/tabela1/knn_n=3_t1.png)
 
-![KNN2 tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/knn_n%3D38_t2.png?raw=true)
+![KNN2 tabela 2](./imagens/modelo1/tabela2/knn_n=38_t2.png)
 
 Por último, para validarmos os modelos, utilizamos metodo de Cross validation.
 
-![Cross validation tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/cross_validation_t1.png?raw=true)
+![Cross validation tabela 1](./imagens/modelo1/tabela1/cross_validation_t1.png)
 
-![Cross validation tabela 2](imagens/modelo1/tabela2/cross_validation_t2.png)
-
-
-Extra: Codigo da distribuição da tabela 2.
-
-![Código gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/cod_grafico_t2.png?raw=true)
+![Cross validation tabela 2](./imagens/modelo1/tabela2/cross_validation_t2.png)
 
 ### Modelo 2: Árvore de decisão
 
@@ -347,21 +344,26 @@ Plotagem do heatmap:
 
 ### Resultados obtidos com o modelo 1.
 
-Resultados antes do ajuste de vizinhos:
+#### Resultados antes do ajuste de vizinhos:
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/CR_CM_t1.png?raw=true)
+![ClassReport tabela 1](./imagens/modelo1/tabela1/Classification_Report_t1.png)
+![Confusion Matrix tabela 1](./imagens/modelo1/tabela1/Matriz_Confusao_graph_t1.png)
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D1_t2.png?raw=true)
+Tabela 2:
 
-![Gráfico de distribuição tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/grafico_dist.png?raw=true)
+![ClassReport tabela 2](./imagens/modelo1/tabela2/Classification_report_n1_t2.png)
 
-Resultados após do ajuste de vizinhos:
+![Confusion Matrix tabela 2](./imagens/modelo1/tabela2/Matriz_confusao_n1_t2.png)
 
-![CR CM tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela1/CR_CM_n%3D3_t1.png?raw=true)
+#### Resultados após do ajuste de vizinhos:
 
-![CR CM tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo1/tabela2/CR_CM_n%3D38_t2.png?raw=true)
+![ClassReport tabela 1 apos ajuste](./imagens/modelo1/tabela1/Classification_Report_t1.png)
+![Confusion Matrix tabela 1 apos ajuste](./imagens/modelo1/tabela1/Matriz_Confusao_graph_t1.png)
 
+Tabela 2:
 
+![ClassReport tabela 2](./imagens/modelo1/tabela2/Classification_report_n38_t2.png)
+![Confusion Matrix tabela 2](./imagens/modelo1/tabela2/Matriz_confusao_n38_t2.png)
 
 ### Interpretação do modelo 1
 
