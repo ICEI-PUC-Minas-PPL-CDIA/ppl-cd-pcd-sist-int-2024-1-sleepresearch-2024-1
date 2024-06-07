@@ -158,6 +158,7 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 	| Hours Studied |  essa coluna é essencial, é nela que se verifica quanto o aluno passou estudando, fortes correlações com `academic performance`, `Performance Index` podem ser realizadas |
 	| Sleep Hours |  A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior | 
 	| Extracurricular Activities |  Vai ser utilizado para relacionarmos com o campo `Practice extracurricular activities` |
+	| Previous Scores | Atributo importante pois com ele conseguimos ter uma ideia da nota do aluno anterior, podendo assim medir a capacidade do mesmo |
     | Sample Question Papers Practiced | Atributo que podera ser utilizado futuramanente para saber o nível de dedicação do estudante |
 	| Performance Index | Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance` |
 
