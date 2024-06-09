@@ -441,7 +441,46 @@ Resultados da tabela 2:
 
 ### Interpretação do modelo 2
 
-Repita o passo anterior com os parâmetros do modelo 2.
+O código desenvolvido envolve parâmetros que desempenham funções cruciais na análise dos dados e no treinamento do modelo de Árvore de Decisão.
+
+- **Parâmetros Gerais:**
+
+	- **random_state:** Este parâmetro define a semente para o gerador de números aleatórios, garantindo a reprodutibilidade dos resultados em diferentes execuções. Um valor específico (por exemplo, 1) garante divisões de dados e comportamento do modelo consistentes.
+Parâmetros de Pré-processamento de Dados:
+
+- **StandardScaler:** Este parâmetro normaliza as características padronizando-as, garantindo que tenham média zero e desvio padrão de um. Isso evita que características com escalas maiores dominem o aprendizado do modelo.
+Parâmetros de Treinamento do Modelo:
+
+- **DecisionTreeClassifier:** É uma classe que implementa o algoritmo de árvore de decisão para classificação.
+
+- **criterion (Padrão 'gini'):** Este parâmetro especifica a função de medida de qualidade da divisão. 'gini' para o índice de Gini e 'entropy' para a entropia da informação.
+
+- **train_test_split:** Esta função divide os dados em conjuntos de treinamento e teste, permitindo que o modelo aprenda com um conjunto e avalie seu desempenho no outro.
+
+- **test_size (Padrão 0.25):** Este parâmetro determina a proporção de dados alocados ao conjunto de teste. Um valor mais alto aumenta o tamanho do conjunto de teste, fornecendo mais dados para avaliação, mas reduzindo o tamanho do conjunto de treinamento.
+Parâmetros de Avaliação:
+
+- **classification_report:** Esta função gera um relatório detalhado do desempenho de classificação do modelo, incluindo precisão e suporte para cada classe.
+
+- **confusion_matrix:** Esta função cria uma matriz que visualiza a distribuição de previsões corretas e incorretas entre as classes.
+
+- **Parâmetros de Visualização:**
+
+	- **plot_tree:** Esta função visualiza a estrutura da árvore de decisão.
+	- **filled:** Este parâmetro habilita o preenchimento das células com cores baseadas na classe majoritária.
+	- **rounded:** Este parâmetro habilita as bordas arredondadas das células.
+	- **special_characters:** Este parâmetro permite caracteres especiais na visualização.
+	- **Graphviz Export:** Exporta a árvore de decisão para um formato visual usando Graphviz.
+	- **feature_names:** Este parâmetro especifica os nomes das características (colunas) usadas na árvore.
+	- **class_names:** Este parâmetro especifica os nomes das classes alvo.
+
+- **Observações:**
+
+	- O código utiliza bibliotecas para manipulação de dados, visualização e aprendizado de máquina, incluindo pandas, numpy, seaborn, matplotlib, sklearn e graphviz.
+	- O pré-processamento garante que o formato dos dados esteja adequado para que o modelo aprenda de forma eficaz.
+	- O treinamento divide os dados em conjuntos de treinamento e teste.
+	- Após estes processos, o desempenho do modelo é avaliado usando métricas como relatório de classificação e matriz de confusão.
+	- A etapa de visualização é usada para interpretar resultados do modelo e identificar padrões nos dados.
 
 
 ## Análise comparativa dos modelos
