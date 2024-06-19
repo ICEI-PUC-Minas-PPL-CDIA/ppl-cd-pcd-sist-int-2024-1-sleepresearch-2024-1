@@ -99,38 +99,38 @@ Dificuldades em se concentrar nas aulas devido à rotina exaustiva e falta de fo
 
 ## Análise exploratórida dos dados
 
-O projeto vai utilizar o dataset "Student Stress Factors" como sua fonte de dados principal. Este dataset busca relacionar variaveis que podem causar ou são causa de estress.
+O projeto vai utilizar o dataset "Student Stress Factors" como sua fonte de dados principal. Este dataset busca relacionar variáveis que podem causar ou são causa de estresses.
 
 Nele temos os seguintes atributos:
 
 | Atributo | Descrição | Tipo de dado |
 | ---------|-----------|--------------|
-| Sleep Quality | Atributo que observa a autoavaliação que o estudante da para seu sono | numero inteiro |
-| suffer headaches| Atributo que observa quantas vezes o aluno teve dor de cabeça na semana | numero inteiro|
-| academic performance | Atributo que observa a autoavaliação que o estudante da para sua performance acadêmica | numero inteiro|
-| study load |Atributo que observa a nota que o estudante da para sua grade curricular | numero inteiro|
-| How many times a week you practice extracurricular activities | Atributo que observa quantas vezes na semana que o aluno pratica atividades extracurriculares | numero inteiro|
-| stress levels | Atributo que observa a nota que o estudante da para seu nível de estress | numero inteiro|
+| Sleep Quality | Atributo que observa a autoavaliação que o estudante dá para seu sono | número inteiro |
+| suffer headaches| Atributo que observa quantas vezes o aluno teve dor de cabeça na semana | número inteiro|
+| academic performance | Atributo que observa a autoavaliação que o estudante dá para sua performance acadêmica | número inteiro|
+| study load |Atributo que observa a nota que o estudante dá para sua grade curricular | número inteiro|
+| How many times a week you practice extracurricular activities | Atributo que observa quantas vezes na semana o aluno pratica atividades extracurriculares | número inteiro|
+| stress levels | Atributo que observa a nota que o estudante dá para seu nível de estress | número inteiro|
 
-Para complementar e enriquecer a base principal temos o dataset "Student_Performance" que tem como objetivo examinar os fatores que influênciam a perfomance academica. relacionar variaveis que podem causar ou são causa de estress.
+Para complementar e enriquecer a base principal temos o dataset "Student_Performance" que tem como objetivo examinar os fatores que influênciam a perfomance acadêmica. relacionar variáveis que podem causar ou são causa de estresses.
 
 Nele temos os seguintes atributos:
 | Atributo | Descrição | Tipo de dado |
 | ---------|-----------|--------------|
-| Hours Studied | Atributo que observa o numero total de horas gasta estudando |  numeros inteiros|
-| Previous Scores | Atributo que observa a nota obtida pelos estudantes em exames anteriores | numeros inteiros |
-| Extracurricular Activities |  Atributo que observa se um aluno participa em atividades extracurriculares ou não | booleano |
-|Sleep Hours | Atributo que observa o tempo médio de sono que um estudante tem por dia | numeros inteiros | 
-| Sample Question Papers Practiced | Atributo que observa o numero de questionarios não obrigatórios realizados | numero inteiro |
+| Hours Studied | Atributo que observa o número total de horas gastas estudando |  números inteiros|
+| Previous Scores | Atributo que observa a nota obtida pelos estudantes em exames anteriores | números inteiros |
+| Extracurricular Activities |  Atributo que observa se um aluno participa de atividades extracurriculares ou não | booleano |
+|Sleep Hours | Atributo que observa o tempo médio de sono que um estudante tem por dia | números inteiros | 
+| Sample Question Papers Practiced | Atributo que observa o número de questionários não obrigatórios realizados | número inteiro |
 | Performance Index | atributo que observa a performance média de cada estudante | numero real|
 
 ###    Descrição de dados
 
 Por meio de uma análise dos dados de ambas as tabelas, foi possivel observar relações já esperadas entre os dados, médias com valores significativos e algumas informações que poderiam ser consideradas estranhas.
 
-Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma analise de gráficos gerados por programas em pyhton.
+Estas relações foram feitas por meio medias, valores mínimos e máximos para os tipos de dados inteiros, e uma separação de dados por meio da moda, quantidade de valores distintos(categorias). Além de uma análise de gráficos gerados por programas em python.
 
-Para uma melhor analise dos dados [clique aqui.](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
+Para uma melhor análise dos dados [clique aqui.](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/assets/results/README.md)
 
 ## Preparação dos dados
 
@@ -144,10 +144,10 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 	| --------- | ------ |
 	| Sleep Quality | Um dos atributos principais, pois nele temos a autoavaliação do estudante sobre sua qualidade de sono |
 	| Suffer headaches| Podem-se procurar relações entre as dores de cabeça e disturbios do sono no geral |
-	| Academic performance | Por se tratar da variavel que nos mostra a performance academica de um aluno é interessante mantermos ela |
-	| Study load | Seria possível observar relações entre a carga horaria da instituição e a performance |
-	| Practice extracurricular activities | Alunos que fazem atividades extra curriculares podem ter performance academica melhor que os demais |
-	| Stress levels | É possivel relacionar o nivel de stress dos alunos com o tempo de sono, carga acadêmica e atividades extracurriculares | 
+	| Academic performance | Por se tratar da variável que nos mostra a performance academica de um aluno é interessante mantê-la |
+	| Study load | Seria possível observar relações entre a carga horária da instituição e a performance |
+	| Practice extracurricular activities | Alunos que fazem atividades extra curriculares podem ter performance acadêmica melhor que os demais |
+	| Stress levels | É possivel relacionar o nível de stress dos alunos com o tempo de sono, carga acadêmica e atividades extracurriculares | 
 
 - Tabela "Student_Performance.csv" (Enriquecimento):
 
@@ -157,8 +157,8 @@ Os seguintes atributos das respectivas bases são indispensáveis ao se tratar d
 	| Sleep Hours |  A colunas mais importante desta tabela, pode ser utilizada em correlações com `Sleep Quality` da tabela anterior | 
 	| Extracurricular Activities |  Vai ser utilizado para relacionarmos com o campo `Practice extracurricular activities` |
 	| Previous Scores | Atributo importante pois com ele conseguimos ter uma ideia da nota do aluno anterior, podendo assim medir a capacidade do mesmo |
-    | Sample Question Papers Practiced | Atributo que podera ser utilizado futuramanente para saber o nível de dedicação do estudante |
-	| Performance Index | Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, alem de que é possivel realizar correlações com `academic performance` |
+    | Sample Question Papers Practiced | Atributo que poderá ser utilizado futuramanente para saber o nível de dedicação do estudante |
+	| Performance Index | Um dos atributos principais da tabela, com ele é possivel analisar a performance do estudante, além de que é possivel realizar correlações com `academic performance` |
 
 Os demais atributos foram julgados desnecessários, pois são redundantes ou não acrescentam informações de maneira significativa.
 
@@ -180,19 +180,19 @@ A ausência de valores inconsistentes na tabela principal pode ser atribuída à
 
 #### Student performance: 
 
-Esta tabela trata cada linha como se fosse individuos diferentes, por causa disso não existe problema na exeistencia de valores duplicados, pois um aluno pode ter valores iguais a um outro. Além disso, a tabela, que já é sintética, define valores mínimos e máximos para cada campo, extinguindo assim a possibilidade da existência de um outlier.
+Esta tabela trata cada linha como se fosse individuos diferentes, por causa disso não existe problema na existência de valores duplicados, pois um aluno pode ter valores iguais a um outro. Além disso, a tabela, que já é sintética, define valores mínimos e máximos para cada campo, extinguindo assim a possibilidade da existência de um outlier.
 
 ### Conversão de dados
 
 Primeiramente, é importante ressaltar que é incondizente unir os atributos das bases que foram escolhidas como principal e secundária, uma vez que elas, embora tratem de uma mesma dimensão, têm diferentes abordagens - uma mostra o valor bruto, além de ser sintética, enquanto a outra é uma autoavaliação com valores reais. Por isso, foi escolhido fazer uma relação por meio de voto, em que há uma mesma pergunta para ambas as bases. No entanto, os métodos para chegar em uma resposta seriam pensados em casos isolados para ambas as bases.
 
-Na base principal "Student_stress_factors", há seis atributos, que são referentes à qualidade do sono, à dor de cabeça, à performance acadêmica, à carga horária de estudo, às atividades extracurriculares e ao nível de estresse. Estes são atributos que informam a autoavaliação de cada aluno de 1 a 5, em que 1 se traduz em um índice baixo, e 5 a um índice alto. Foi decidido não fazer o descarte ou alteração de nenhum desses atributos, uma vez que todos estão limpos e apresentam relevância para o problema. Já na base secundária "Student_performance", há os seguintes atributos: "Hours studied", "Previous score", "Extracurricular activities", "Sleep hours", "Sample Question Papers Practiced" e "Performance Index". Todos estes são úteis para se chegar em informações, mas há algumas possíveis alterações que podem ser feitas, como formar faixas que mostrem categorias. 
+Na base principal "Student_stress_factors", há seis atributos, que são referentes à qualidade do sono, dor de cabeça, performance acadêmica, carga horária de estudo, atividades extracurriculares e ao nível de estresse. Estes são atributos que informam a autoavaliação de cada aluno de 1 a 5, em que 1 se traduz em um índice baixo, e 5 a um índice alto. Foi decidido não fazer o descarte ou alteração de nenhum desses atributos, uma vez que todos estão limpos e apresentam relevância para o problema. Já na base secundária "Student_performance", há os seguintes atributos: "Hours studied", "Previous score", "Extracurricular activities", "Sleep hours", "Sample Question Papers Practiced" e "Performance Index". Todos estes são úteis para se chegar em informações, mas há algumas possíveis alterações que podem ser feitas, como formar faixas que mostrem categorias. 
 
 Foi preparado uma base de dados onde trocamos os valores de "Extracurricular activities" para o tipo booleano e o tipo da coluna "Performance Index" de float para int, essa tabela chama [performance_data_converted](../assets/data/performance_data_converted.csv). As tabelas abaixo foram baseadas nesta.
 
-A tabela [performance_data_convertido_por_faixas](../assets/data/performance_data_convertido_por_faixas.csv) é a tabela em que convertemos todos os valores para uma faixa deles que variava de 1 a 5, ou seja, transformamos os dados em categoricos.
+A tabela [performance_data_convertido_por_faixas](../assets/data/performance_data_convertido_por_faixas.csv) é a tabela em que convertemos todos os valores para uma faixa deles que variava de 1 a 5, ou seja, transformamos os dados em categóricos.
 
-Já na tabela [performance_data_convertido_por_faixas_sem_Previous](../assets/data/performance_data_convertido_por_faixas_sem_Previous.csv) é identica a tabela anterior, a unica diferença esta na retirada da coluna "Previous Scores".
+Já na tabela [performance_data_convertido_por_faixas_sem_Previous](../assets/data/performance_data_convertido_por_faixas_sem_Previous.csv) é identica a tabela anterior, a única diferença esta na retirada da coluna "Previous Scores".
 
 Por ultimo, a tabela [performance_data_Index_convertido_por_faixas](../assets/data/performance_data_Index_convertido_por_faixas.csv), que foi definida como a tabela final com qual trabalhariamos, foi alterado para valores em faixa apenas a coluna "Performance Index".
 
@@ -216,7 +216,7 @@ Agora, usamos a função `train_test_split` para separar os dados de treino dos 
 
 ![KNN tabela 2](./imagens/modelo1/tabela2/knn_n=1_t2.png)
 
-Como o numero de vizinhos ideal pode variar de acordo com cada tabela devemos descobrir o numero ideal para cada uma delas. Para isso refazemos o processo do KNN dentro de um for que incrementa os valores de uma variavel `i` de 1 a 40, essa variavel é utilizada como parametro do numero de vizinhos. Após esse for é plotado um gráfico que nos mostra as taxas de erro para cada numero de vizinhos.
+Como o número de vizinhos ideal pode variar de acordo com cada tabela devemos descobrir o numero ideal para cada uma delas. Para isso refazemos o processo do KNN dentro de um for que incrementa os valores de uma variavel `i` de 1 a 40, essa variável é utilizada como parâmetro do número de vizinhos. Após esse for é plotado um gráfico que nos mostra as taxas de erro para cada número de vizinhos.
 
 ![error rate tabela 1](./imagens/modelo1/tabela1/error_rate_t1.png)
 
@@ -228,7 +228,7 @@ Tabela 2:
 
 ![gráfico tabela 2](./imagens/modelo1/tabela2/error_rate_graph_t2.png)
 
-O KNN é novamente feito após a descoberta do melhor numero de vizinhos, utilizando o melhor encontrado.
+O KNN é novamente feito após a descoberta do melhor número de vizinhos, utilizando o melhor encontrado.
 
 ![KNN2 tabela 1](./imagens/modelo1/tabela1/knn_n=3_t1.png)
 
@@ -384,7 +384,7 @@ O código desenvolvido envolve parâmetros que desempenham funções cruciais na
 	- **confusion_matrix:** Esta função cria uma matriz que visualiza a distribuição de previsões corretas e incorretas entre as classes.
 
 	- **cross_val_score:** Esta função realiza validação cruzada, avaliando o desempenho do modelo em várias divisões aleatórias dos dados.
-		- cv (Padrão: 5): Este parâmetro especifica o número de dobras para validação cruzada.Quanto mais alto o valor, mais confiável é a avaliação.
+		- cv (Padrão: 5): Este parâmetro especifica o número de dobras para validação cruzada. Quanto mais alto o valor, mais confiável é a avaliação.
 
 - **Parâmetros de visualização:**
 	- **plotly.express.scatter:** Esta função cria um gráfico de dispersão que visualiza a relação entre as variáveis.
