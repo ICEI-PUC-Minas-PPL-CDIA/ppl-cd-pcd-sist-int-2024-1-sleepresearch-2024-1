@@ -335,6 +335,7 @@ Plotagem do heatmap:
 #### Resultados antes do ajuste de vizinhos:
 
 ![ClassReport tabela 1](./imagens/modelo1/tabela1/Classification_Report_t1.png)
+
 ![Confusion Matrix tabela 1](./imagens/modelo1/tabela1/Matriz_Confusao_graph_t1.png)
 
 Tabela 2:
@@ -346,11 +347,13 @@ Tabela 2:
 #### Resultados após do ajuste de vizinhos:
 
 ![ClassReport tabela 1 apos ajuste](./imagens/modelo1/tabela1/Classification_Report_t1.png)
+
 ![Confusion Matrix tabela 1 apos ajuste](./imagens/modelo1/tabela1/Matriz_Confusao_graph_t1.png)
 
 Tabela 2:
 
 ![ClassReport tabela 2](./imagens/modelo1/tabela2/Classification_report_n38_t2.png)
+
 ![Confusion Matrix tabela 2](./imagens/modelo1/tabela2/Matriz_confusao_n38_t2.png)
 
 ### Interpretação do modelo 1
