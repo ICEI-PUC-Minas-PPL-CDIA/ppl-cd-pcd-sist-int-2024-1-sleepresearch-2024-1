@@ -273,71 +273,69 @@ Fácil Implementação: As árvores de decisão são relativamente simples de im
 
 Primeiramente foi feita a normalização dos dados do dataset utilizando a função standard scaler.
 
-![Standard Scaler tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Standard.jpeg?raw=true)
+![Standard Scaler tabela 1](./imagens/modelo2/Tabela1/Standard.jpeg)
 
 Após isso, um novo dataset foi gerado com o nome df_parm com os dados normalizados, excluindo a coluna academic performance, pois é a que será prevista. 
 
-![Parâmetros tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Parametros.jpeg?raw=true)
+![Parâmetros tabela 1](./imagens/modelo2/Tabela1/Parametros.jpeg)
 
 Foram separados 25% dos dados da tabela para teste e 75% para treinamento utilizando a função `train_test_split`.
 
-![Treinamento tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Treinamento.jpeg?raw=true)
+![Treinamento tabela 1](./imagens/modelo2/Tabela1/Treinamento.jpeg)
 
 Plotagem da árvore de decisão:
 
-![Plotando a árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_arvore.jpeg?raw=true)
+![Plotando a árvore tabela 1](./imagens/modelo2/Tabela1/Plot_arvore.jpeg)
 
-![Árvore tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Arvore.jpeg?raw=true)
+![Árvore tabela 1](./imagens/modelo2/Tabela1/Arvore.jpeg)
 
 Para que se obtivesse uma melhor visualização, a árvore de decisão também foi plotada em formato docs. 
 
-![Plotando em docs tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_dot.jpeg?raw=true)
+![Plotando em docs tabela 1](./imagens/modelo2/Tabela1/Plot_dot.jpeg)
 
 Logo após, foram feitos a matriz de confusão e um heatmap, utilizado para validar o modelo.
 
-![Matriz tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Matriz.jpeg?raw=true)
+![Matriz tabela 1](./imagens/modelo2/Tabela1/Matriz.jpeg)
 
 Plotagem do heatmap: 
 
-![Plotando heatmap tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Plot_heatmap.jpeg?raw=true)
+![Plotando heatmap tabela 1](./imagens/modelo2/Tabela1/Plot_heatmap.jpeg)
 
-![Heatmap tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela1/Heatmap.jpeg?raw=true)
-
-
+![Heatmap tabela 1](./imagens/modelo2/Tabela1/Heatmap.jpeg)
 
 Árvore da segunda tabela (student stress factor):
 
 Para a segunda árvore, o mesmo processo foi feito, começando pela normalização com a função standard scaler.
 
-![Standard scaler tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/StandardScaler2.jpeg?raw=true)
+![Standard scaler tabela 2](./imagens/modelo2/Tabela2/StandardScaler2.jpeg)
 
 Um novo dataset foi gerado com o nome df_parm com os dados normalizados, excluindo a coluna academic performance, pois é a que será prevista.
 
-![Parâmetros tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Parametros2.jpeg?raw=true)
+![Parâmetros tabela 2](./imagens/modelo2/Tabela2/Parametros2.jpeg)
 
 Foram separados 25% dos dados da tabela para teste e 75% para treinamento utilizando a função `train_test_split`.
 
-![Treinamento tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Treinamento2.jpeg?raw=true)
+![Treinamento tabela 2](./imagens/modelo2/Tabela2/Treinamento2.jpeg)
 
 Plotagem da árvore:
 
-![Plotando a árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_arvore2.jpeg?raw=true)
+![Plotando a árvore tabela 2](./imagens/modelo2/Tabela2/Plot_arvore2.jpeg)
 
-![Árvore tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Arvore2.jpeg?raw=true)
+![Árvore tabela 2](./imagens/modelo2/Tabela2/Arvore2.jpeg)
 
 Foi também plotada a segunda árvore em formato docs.
 
-![Plotando em docs tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_dot2.jpeg?raw=true)
+![Plotando em docs tabela 2](./imagens/modelo2/Tabela2/Plot_dot2.jpeg)
 
 Por fim, foi feita a plotagem da matriz de confusão e a validação do modelo utilizando o heatmap.
 
-![Matriz tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Matriz2.jpeg?raw=true)
+![Matriz tabela 2](./imagens/modelo2/Tabela2/Matriz2.jpeg)
 
 Plotagem do heatmap:
 
-![Plotando o heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Plot_heatmap2.jpeg?raw=true)
+![Plotando o heatmap tabela 2](./imagens/modelo2/Tabela2/Plot_heatmap2.jpeg)
 
-![Heatmap tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/imagens/modelo2/Tabela2/Heatmap2.jpeg?raw=true)
+![Heatmap tabela 2](./imagens/modelo2/Tabela2/Heatmap2.jpeg)
 
 
 
@@ -348,6 +346,7 @@ Plotagem do heatmap:
 #### Resultados antes do ajuste de vizinhos:
 
 ![ClassReport tabela 1](./imagens/modelo1/tabela1/Classification_Report_t1.png)
+
 ![Confusion Matrix tabela 1](./imagens/modelo1/tabela1/Matriz_Confusao_graph_t1.png)
 
 Tabela 2:
@@ -359,11 +358,13 @@ Tabela 2:
 #### Resultados após do ajuste de vizinhos:
 
 ![ClassReport tabela 1 apos ajuste](./imagens/modelo1/tabela1/Classification_Report_t1.png)
+
 ![Confusion Matrix tabela 1 apos ajuste](./imagens/modelo1/tabela1/Matriz_Confusao_graph_t1.png)
 
 Tabela 2:
 
 ![ClassReport tabela 2](./imagens/modelo1/tabela2/Classification_report_n38_t2.png)
+
 ![Confusion Matrix tabela 2](./imagens/modelo1/tabela2/Matriz_confusao_n38_t2.png)
 
 ### Interpretação do modelo 1
@@ -427,11 +428,11 @@ O código desenvolvido envolve parâmetros que desempenham funções cruciais na
 
 Resultados da tabela 1:
 
-![Resultados tabela 1](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela1/parametrosmode2.png?raw=true)
+![Resultados tabela 1](./imagens/modelo2/Tabela1/resultadoTabela1.png)
 
 Resultados da tabela 2: 
 
-![Resultados tabela 2](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/946cdecd9e7cc7874c62db4294e7c62929e95515/docs/imagens/modelo2/Tabela2/Parametrotabela2.png?raw=true)
+![Resultados tabela 2](./imagens/modelo2/Tabela2/resultadoTabela2.png)
 
 
 ### Interpretação do modelo 2
