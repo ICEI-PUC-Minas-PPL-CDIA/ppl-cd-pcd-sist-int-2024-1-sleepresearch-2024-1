@@ -1,16 +1,71 @@
-cff-version: 1.0.1
+
+cff-version: 1.0.0
+title: Sleep Research
 message: Por favor, cite o repositório utilizando estes metadados.
-title: Repositório modelo para a disciplina de Projeto em Ciência de Dados I - Sistemas Inteligentes.
+type: software
 authors:
-   - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: de Paula
-    given-names: Hugo
+  - given-names: Arthur Henrique
+    name-particle: Chave
+    family-names: Oliveira
+    name-suffix: Estudante
+    email: arthurhenri2006@gmail.com
+    affiliation: Pontifícia Universidade Católica de Minas Gerais
+  - given-names: Júlio
+    name-particle: Lage
+    family-names: Alexandre
+    name-suffix: Estudante
+    email: juliolage007@gmail.com
+    affiliation: Pontifícia Universidade Católica de Minas Gerais
+  - given-names: Rhudson Douglas
+    name-particle: Mota
+    family-names: Sampaio
+    email: sampaio.rhudson@gmail.com
+    affiliation: Pontifícia Universidade Católica de Minas Gerais
+    name-suffix: Estudante
+  - given-names: Sophia Neves
+    name-particle: Alvim
+    family-names: Ottoni
+    email: sophianevesottoni@gmail.com
+    affiliation: Pontifícia Universidade Católica de Minas
+    name-suffix: Estudante
+  - given-names: Sara
+    name-particle: Alves
+    family-names: Martins
+    email: saramartins.bhz@gmail.com
+    affiliation: Pontifícia Universidade Católica de Minas
+    name-suffix: Estudante
+  - given-names: Hugo Bastos
+    name-particle: Paula
+    name-suffix: Professor
+  - name: 'Pontifícia Universidade Católica de Minas Gerais '
+    city: Belo Horizonte
+    country: BR
+    post-code: '30140108'
+    website: 'https://www.pucminas.br/'
+    address: Rua Cláudio Manoel 1162 (Savassi)
+    date-start: '2024-03-10'
+    date-end: '2024-06-24'
+repository-code: >-
+  https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1
+abstract: >-
+  Este estudo investiga a correlação entre a qualidade do
+  sono e o desempenho acadêmico de estudantes universitários
+  no Brasil. Baseando-se em dados de pesquisas acadêmicas e
+  de saúde pública, examina-se como noites mal dormidas
+  podem influenciar negativamente a produtividade em sala de
+  aula e a saúde dos alunos. Os resultados destacam a
+  necessidade de promover uma boa higiene do sono entre os
+  estudantes como parte dos esforços para melhorar a
+  qualidade da educação e o bem-estar geral da população.
+  Enfoca-se a importância de conscientizar sobre os impactos
+  do sono na educação e na vida dos alunos, ressaltando a
+  necessidade de intervenções para melhorar os hábitos de
+  sono e, consequentemente, os resultados acadêmicos.
 keywords:
-  - Ciência de Dados
-  - Jupyter Notebooks
-  - Aprendizado de Máquina
-repository-code:
+  - Sleep Research
+  - algoritmos
+  - Sleep
+  - Research
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
