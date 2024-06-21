@@ -482,15 +482,52 @@ em um sistema inteligente.
 
 
 ## 8. Conclusão
+### Conclusão do Trabalho
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, 
-onde se verifica as observações pessoais de cada aluno.
+#### Breve Resumo do que foi Desenvolvido
 
-Uma conclusão deve ter 3 partes:
+Este trabalho teve como objetivo desenvolver e comparar dois modelos de aprendizado de máquina para analisar fatores de estresse e desempenho acadêmico de alunos. Foram utilizados o algoritmo KNN (K-Nearest Neighbors) e árvores de decisão, aplicados a dois conjuntos de dados diferentes: "Student_Performance.csv" e "Student_Stress_Factors.csv".
 
-   * Breve resumo do que foi desenvolvido
-	 * Apresenação geral dos resultados obtidos com discussão das vantagens e desvantagens do sistema inteligente
-	 * Limitações e possibilidades de melhoria
+O processo envolveu etapas de pré-processamento de dados, treinamento dos modelos, ajuste de parâmetros, avaliação de desempenho e interpretação dos resultados obtidos.
+
+#### Apresentação Geral dos Resultados Obtidos com Discussão das Vantagens e Desvantagens do Sistema Inteligente
+
+Os resultados obtidos mostraram que ambos os modelos, KNN e árvore de decisão, foram capazes de realizar previsões razoavelmente precisas em relação às categorias de desempenho acadêmico e fatores de estresse dos alunos.
+
+**Modelo KNN:**
+- **Vantagens:**
+  - Apresentou uma boa capacidade de ajuste após a otimização do número de vizinhos, melhorando significativamente a precisão e o recall.
+  - É relativamente simples de entender e implementar, sendo eficaz para problemas com dados numéricos e categóricos.
+  - Utilização de validação cruzada ajudou a garantir a robustez das métricas de avaliação.
+
+- **Desvantagens:**
+  - Sensível à escala dos dados de entrada, sendo necessário o pré-processamento adequado.
+  - O desempenho pode variar significativamente com o número de vizinhos escolhido, exigindo ajustes detalhados.
+
+**Modelo Árvore de Decisão:**
+- **Vantagens:**
+  - Oferece uma interpretação direta das decisões tomadas pelo modelo, facilitando a análise dos fatores mais influentes.
+  - Lida bem com diferentes tipos de dados e não requer tantos pré-requisitos quanto o KNN em termos de normalização.
+
+- **Desvantagens:**
+  - Pode sofrer de overfitting se não forem aplicadas técnicas adequadas de regularização.
+  - A interpretabilidade pode diminuir à medida que a árvore se torna mais profunda e complexa.
+
+#### Limitações e Possibilidades de Melhoria
+
+**Limitações:**
+- Ambos os modelos dependem fortemente da qualidade e representatividade dos dados de entrada. Dados desbalanceados ou com muitos outliers podem afetar negativamente o desempenho.
+- A escolha dos hiperparâmetros, como o número de vizinhos no KNN ou o critério de divisão na árvore de decisão, pode não ser óbvia e requer ajuste cuidadoso.
+
+**Possibilidades de Melhoria:**
+- **Coleta de Dados:** Expandir e melhorar a coleta de dados pode aumentar a precisão dos modelos, capturando mais nuances nos fatores de estresse e desempenho dos alunos.
+- **Regularização:** Implementar técnicas de regularização nos modelos, como poda na árvore de decisão ou seleção de características no KNN, para mitigar o overfitting.
+- **Modelos Ensemble:** Explorar técnicas de ensemble, como Random Forests ou Gradient Boosting, para combinar vários modelos e melhorar a robustez das previsões.
+- **Interpretabilidade:** Continuar a refinar a interpretabilidade dos modelos, especialmente importantes em contextos educacionais, pode ajudar educadores e gestores a tomar decisões mais informadas.
+
+### Considerações Finais
+
+Este estudo destacou a aplicação de modelos de aprendizado de máquina na análise de dados educacionais, fornecendo insights úteis sobre os fatores que influenciam o desempenho acadêmico e o estresse dos alunos. Embora ambos os modelos tenham mostrado resultados promissores, cada um possui suas próprias vantagens e desafios. A escolha entre eles deve considerar não apenas a precisão das previsões, mas também a interpretabilidade e a facilidade de implementação. Futuros trabalhos podem explorar outras técnicas avançadas e conjuntos de dados mais diversificados para continuar melhorando a compreensão e apoio aos alunos no ambiente educacional.
 
 
 # REFERÊNCIAS
