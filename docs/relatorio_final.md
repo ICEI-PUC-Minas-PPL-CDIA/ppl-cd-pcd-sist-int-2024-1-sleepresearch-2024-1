@@ -482,24 +482,20 @@ em um sistema inteligente.
 
 ## Ameaças à Validade Interna
 
-A validade interna é crucial para assegurar que os resultados obtidos refletem precisamente as relações causais estudadas, sem interferências de fatores externos. No caso do modelo KNN, a normalização dos dados utilizando StandardScaler é essencial para garantir que características com escalas diferentes não dominem o processo de aprendizado. Contudo, a escolha do número ideal de vizinhos (n_neighbors) pode introduzir vieses se não for criteriosamente validada. A utilização de cross-validation mitigou parte dessa ameaça ao testar o modelo em diferentes subconjuntos de dados, mas é essencial considerar se o método escolhido é robusto o suficiente para capturar todas as nuances do fenômeno estudado. Além disso, é importante analisar-se a predominância de um atributo dominante na construção dos modelos, para que não haja contaminação dos resultados.
+A validade interna é crucial para assegurar que os resultados obtidos refletem precisamente as relações causais estudadas, sem interferências de fatores externos. No caso do modelo KNN, a normalização dos dados utilizando StandardScaler é essencial para garantir que características com escalas diferentes não dominem o processo de aprendizado. Contudo, a escolha do número ideal de vizinhos (n_neighbors) pode introduzir vieses se não for criteriosamente validada. A utilização de cross-validation mitigou parte dessa ameaça ao testar o modelo em diferentes subconjuntos de dados, mas é essencial considerar se o método escolhido é robusto o suficiente para capturar todas as nuances do fenômeno estudado. Além disso, é importante analisar-se a predominância de um atributo dominante na construção dos modelos, para que não haja contaminação dos resultados e a escolha do critério de divisão, que é crucial para determinar a precisão e a robustez do modelo, afetando diretamente a interpretação dos resultados e a escalabilidade do algoritmo. Adaptar a métrica de distância à natureza dos dados melhora significativamente o desempenho.
 
 Para a Árvore de Decisão, a interpretabilidade do modelo pode ser um desafio, especialmente ao lidar com conjuntos de dados complexos como os analisados. A escolha do critério de divisão (criterion) entre 'gini' e 'entropy' impacta diretamente na estrutura da árvore e na interpretação das regras de decisão. Além disso, a `feature_importances_`, que destaca a relevância de cada atributo, pode ser sensível à seleção de características, introduzindo vieses na interpretação dos fatores determinantes para o estresse dos alunos e seu desempenho acadêmico.
 
 ## Ameaças à Validade Externa
 
-A validade externa diz respeito à capacidade de generalizar os resultados para contextos, populações ou condições diferentes daquelas do estudo original. No caso dos modelos apresentados, há desafios significativos em aplicar os resultados obtidos em outras escolas, regiões geográficas ou grupos demográficos diversos. A falta de representatividade dos dados de treinamento pode limitar a capacidade dos modelos de capturar a variabilidade natural entre diferentes populações de estudantes. Além disso, a generalização das conclusões para diferentes sistemas educacionais ou culturais pode não ser apropriada sem uma validação cruzada extensa e cuidadosa. O uso de dados sintéticos e dados coletados a partir de uma visão pessoal subjetiva também pode prejudicar a validade dos resultados.
+A validade externa diz respeito à capacidade de generalizar os resultados para contextos, populações ou condições diferentes daquelas do estudo original. No caso dos modelos apresentados, há desafios significativos em aplicar os resultados obtidos em outras escolas, regiões geográficas ou grupos demográficos diversos. A falta de representatividade dos dados de treinamento pode limitar a capacidade dos modelos de capturar a variabilidade natural entre diferentes populações de estudantes. Além disso, a generalização das conclusões para diferentes sistemas educacionais ou culturais pode não ser apropriada sem uma validação cruzada extensa e cuidadosa. O uso de dados sintéticos, dados coletados a partir de uma visão pessoal subjetiva e a disponibilidade e escolha das features das bases de dados utilizadas também podem prejudicar a validade dos resultados.
 
 ## 8. Conclusão
 ### Conclusão do Trabalho
 
-#### Breve Resumo do que foi Desenvolvido
-
 Este trabalho teve como objetivo desenvolver e comparar dois modelos de aprendizado de máquina para analisar fatores de estresse e desempenho acadêmico de alunos. Foram utilizados o algoritmo KNN (K-Nearest Neighbors) e árvores de decisão, aplicados a dois conjuntos de dados diferentes: "Student_Performance.csv" e "Student_Stress_Factors.csv".
 
 O processo envolveu etapas de pré-processamento de dados, treinamento dos modelos, ajuste de parâmetros, avaliação de desempenho e interpretação dos resultados obtidos.
-
-#### Apresentação Geral dos Resultados Obtidos com Discussão das Vantagens e Desvantagens do Sistema Inteligente
 
 Os resultados obtidos mostraram que ambos os modelos, KNN e árvore de decisão, foram capazes de realizar previsões razoavelmente precisas em relação às categorias de desempenho acadêmico e fatores de estresse dos alunos.
 
@@ -521,8 +517,6 @@ Os resultados obtidos mostraram que ambos os modelos, KNN e árvore de decisão,
 - **Desvantagens:**
   - Pode sofrer de overfitting se não forem aplicadas técnicas adequadas de regularização.
   - A interpretabilidade pode diminuir à medida que a árvore se torna mais profunda e complexa.
-
-#### Limitações e Possibilidades de Melhoria
 
 **Limitações:**
 - Ambos os modelos dependem fortemente da qualidade e representatividade dos dados de entrada. Dados desbalanceados ou com muitos outliers podem afetar negativamente o desempenho.
