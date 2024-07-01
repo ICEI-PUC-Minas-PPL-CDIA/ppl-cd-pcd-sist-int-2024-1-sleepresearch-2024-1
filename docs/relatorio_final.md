@@ -542,10 +542,10 @@ Os resultados obtidos mostraram que ambos os modelos, KNN e árvore de decisão,
 
 # APÊNDICES
 
-Do código (armazenado no repositório);
+[Código](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/tree/main/assets/models)  
 
-Dos artefatos (armazenado do repositório);
+[Artefatos](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/tree/main/assets)  
 
-Da apresentação final (armazenado no repositório);
+[Apresentação final](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/media/Sleep%20Research.pdf)  
 
-Do vídeo de apresentação (armazenado no repositório).
+[Vídeo de apresentação](https://github.com/ICEI-PUC-Minas-PPL-CD/ppl-cd-pcd-sist-int-2024-1-sleepresearch-2024-1/blob/main/docs/media/Sleep%20Research%20Pitch.mp4)  
