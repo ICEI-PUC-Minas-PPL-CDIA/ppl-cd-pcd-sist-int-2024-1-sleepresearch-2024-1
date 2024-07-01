@@ -542,8 +542,6 @@ Os resultados obtidos mostraram que ambos os modelos, KNN e árvore de decisão,
 
 # APÊNDICES
 
-**Colocar link:**
-
 Do código (armazenado no repositório);
 
 Dos artefatos (armazenado do repositório);
